@@ -20,3 +20,6 @@ responses:
     - payload: ausbildung
       title: IT-Verbundsausbildung
     text: Moin! Wie kann ich Dir helfen?
+    
+actions:
+  - action_hello_world
