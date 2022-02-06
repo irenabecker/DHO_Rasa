@@ -6,6 +6,13 @@ intents:
 - salutation
 - greet
 - oeffnungszeiten
+- dho
+- achse
+- veranstaltungen
+- ausbildung
+- unternehmen
+entities:
+- DHO
 responses:
   utter_salutation:
   - text: Moin. Wie kann ich Dir helfen?
@@ -20,6 +27,5 @@ responses:
     - payload: ausbildung
       title: IT-Verbundsausbildung
     text: Moin! Wie kann ich Dir helfen?
-    
 actions:
-  - action_hello_world
+- action_hello_world
