@@ -1,8 +1,6 @@
-version: "3.0"
-
 rules:
 - rule: Start
-conversation_start: true
-  steps:
-  - intent: hello
-  - action: utter_hello
+    conversation_start: true
+    steps:
+    - intent: hello
+    - action: utter_hello
