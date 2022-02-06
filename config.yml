@@ -1,4 +1,5 @@
 recipe: default.v1
 language: de
 pipeline: null
-policies: null
+policies: 
+    - name: RulePolicy

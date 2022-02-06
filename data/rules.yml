@@ -1,13 +1,8 @@
 version: "3.0"
 
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: Start
+conversation_start: true
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: hello
+  - action: utter_hello
