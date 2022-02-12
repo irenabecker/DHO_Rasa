@@ -1,6 +1,0 @@
-rules:
-- rule: Start
-    conversation_start: true
-    steps:
-    - intent: hello
-    - action: utter_hello

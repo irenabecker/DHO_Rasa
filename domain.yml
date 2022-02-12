@@ -1,31 +1,169 @@
-version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 intents:
-- salutation
-- greet
-- oeffnungszeiten
-- dho
-- achse
-- veranstaltungen
-- ausbildung
-- unternehmen
-entities:
-- DHO
+  - greet
+  - how_are_you
+  - goodbye
+  - mood_good
+  - mood_unhappy
+  - affirm
+  - deny
+  - help
+  - are_you_a_bot
+  - out_of_scope
+  - thanks
+  - nlu_fallback
+  - joke
+  - faq
+  - definition_chatbot
+  - vorteile_chatbot
+  - ki_bei_chatbot
+  - reklamation
+  - falscher_artikel
+  - artikel_beschaedigt
+  - back_to_help
+  - new_order
+  - cash_back
+  - bestellnummer
+  - emailadresse
+  - funkgerät
+  - radargerät
+  - firmenadresse
+
 responses:
-  utter_salutation:
-  - text: Moin. Wie kann ich Dir helfen?
-  utter_initial:
+  utter_greet:
   - buttons:
-    - payload: dho
-      title: Allgemeines zum DHO
-    - payload: it_achse
-      title: Netzwerk-IT-Achse
-    - payload: veranstaltungen
-      title: Veranstaltungen
-    - payload: ausbildung
-      title: IT-Verbundsausbildung
-    text: Moin! Wie kann ich Dir helfen?
-actions:
-- action_hello_world
+    - payload: /reklamation
+      title: Reklamation
+    - payload: /faq
+      title: FAQ's
+    text: "Moin! Wobei kann ich dir behilflich sein?"
+
+  utter_reklamation:
+  - text: "Wenn du ein Produkt reklamieren möchtest, brauchen wir für die weitere Bearbeitung einen Grund."
+
+  utter_reklamation_option:
+  - buttons:
+    - payload: /falscher_artikel
+      title: Falscher Artikel
+    - payload: /artikel_beschaedigt
+      title: Artikel beschädigt
+    - payload: /back_to_help
+      title: Zurück
+    text: "Wähle eine Option:" 
+
+  utter_back_to_help:
+  - text: "Möchtest du ein Produkt reklamieren oder etwas über die FAQ's erfahren? Tippe es einfach in den Chat ein:"  
+
+  utter_falscher_artikel:
+  - buttons:
+    - payload: /new_order
+      title: Neue Lieferung
+    - payload: /cash_back
+      title: Geld zurück
+    text: "Das tut uns sehr leid, dass der Artikel falsch ist! Sollen wir einen neuen Artikel schicken, oder möchtest du dein Geld zurück?"
+
+  utter_artikel_beschaedigt:
+  - buttons:
+    - payload: /new_order
+      title: Neue Lieferung
+    - payload: /cash_back
+      title: Geld zurück
+    text: "Das tut uns sehr leid, dass der Artikel beschädigt ist! Sollen wir einen neuen Artikel schicken, oder möchtest du dein Geld zurück?"
+
+  utter_new_order:
+  - text: "Neue Bestellung? Gar kein Problem! Für die weitere Bearbeitung benötigen wir deine E-Mail Adresse:"
+
+  utter_cash_back:
+  - text: "Geld zurück? Gar kein Problem! Für die weitere Bearbeitung benötigen wir deine E-Mail Adresse:"
+
+  utter_emailadresse:
+  - text: "Vielen Dank! Wie lautet deine Bestellnummer:"
+
+  utter_bestellnummer:
+  - buttons:
+    - payload: /funkgerät
+      title: Funkgerät
+    - payload: /radargerät
+      title: Radargerät
+    text: "Notiert! :) Um welches Produkt aus deiner Bestellung handelt es sich? Funkgerät STR-6000-A oder Radargerät?"
+
+  utter_funkgerät:
+  - text: "Okay, kein Problem. Du kannst das Funkgerät zu unserer Firmenadresse zurückschicken. Um den Rest kümmern wir uns! ;)"
+
+  utter_radargerät:
+  - text: "Okay, kein Problem. Du kannst das Radargerät zu unserer Firmenadresse zurückschicken. Um den Rest kümmern wir uns! ;)"
+
+  utter_firmenadresse:
+  - text: "Die Firmenadresse lautet: Musterunternehmen XYZ, Musterstraße 123, Musterort"
+
+  utter_faq:
+  - text: "Folgend sind häufig gestellte Fragen rund um das Thema Chatbot und KI aufgelistet:"
+
+  utter_faq_option:
+  - buttons:
+    - payload: /definition_chatbot
+      title: Definition Chatbot
+    - payload: /vorteile_chatbot
+      title: Vorteile des Chatbots
+    - payload: /ki_bei_chatbot
+      title: KI bei Chatbots
+    text: "Über welches Thema möchtest du mehr erfahren?"   
+  
+
+  utter_help:
+  - text: "Wie kann ich dir helfen?"
+
+  utter_happy:
+  - text: "Mir geht es gut :)"
+  - text: "Alles bestens! :)"
+
+  utter_good:
+  - text: "Schön, das freut mich."
+
+  utter_bad:
+  - text: "Schade, das tut mir Leid."
+
+  utter_cheer_up:
+  - text: "Schade, das tut mir Leid. Hier ist etwas um dich aufzumuntern:"
+    image: "https://i.imgur.com/nGF1K8f.jpg" 
+
+  utter_did_that_help:
+  - text: "Hat es dir geholfen?"
+
+  utter_are_you_a_bot:
+  - text: "Ich bin ein Chat-Roboter und entwickelt mit Rasa."
+
+  utter_how_are_you:
+  - text: "Meine Schaltkreise sind gut geölt :)"
+
+  utter_thanks:
+  - text: "Gerne! :)"
+  - text: "Kein Problem! :)"
+
+  utter_out_of_scope:
+  - text: "Entschuldige, dabei kann ich Dir nicht weiterhelfen."
+  - text: "Tut mir Leid, das gehört nicht zu meinem Aufgabenbereich."
+
+  utter_goodbye:
+  - text: "Auf Wiedersehen"
+  - text: "Bis zum nächsten Mal! :)"
+  - text: "Wir sehen uns! :)"
+
+  utter_please_rephrase:
+  - text: "Es tut mir Leid, ich habe das nicht ganz verstanden. Kannst du es umformulieren?"
+
+  utter_joke:
+  - text: "Treffen sich zwei Roboter, sagt der eine zu dem anderen: Hast du eine Schraube locker?"
+
+  utter_definition_chatbot:
+  - text: "Der Begriff Chatbot ist ein Kofferwort und wird aus den beiden englischen Wörtern Chat (dt. plaudern) und Bot (Kurzform für Robot) gebildet. Unter einem Chatbot wird daher ein System verstanden, das fähig ist, mit einem menschlichen Benutzer in einen Dialog zu treten (Chat) und gewisse Aufgaben autonom zu erledigen (Bot)."
+
+  utter_vorteile_chatbot:
+  - text: "Der Vorteil ist, dass ein Chatbot - wie ich - jederzeit erreichbar ist. Ich kenne keine Überlastung durch Aktivitätsspitzen. Außerdem kommen Sie durch mich schnell an die gewünschten Informationen, ohne zum Telefonhörer zu greifen oder lange auf der Webseite suchen zu müssen."
+
+  utter_ki_bei_chatbot:
+  - text: "Die Künstliche Intelligenz von Chatbots steckt in der Fähigkeit, Eingaben in natürlicher Sprache zu dekodieren und maschinell zu verarbeiten. Diesen KI-Prozess bezeichnet mal als Natural Language Understanding (NLU). Da natürliche Sprachen historisch gewachsen sind, sind sie von lexikalischer und struktureller Mehrdeutigkeit geprägt. Zudem haben Menschen unterschiedliche Sprachstile und nutzen verschiedene Varietäten und Ausdrucksformen. Also besteht die Leistung der KI bei NLU-Prozessen darin, die Absicht hinter den Fragen der Nutzer zu erkennen, um ihnen passende Antworten zuzuordnen."
+
