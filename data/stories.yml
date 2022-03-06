@@ -1,0 +1,118 @@
+version: "2.0"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_good
+  - action: utter_good
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_good
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_bad
+- story: are you a bot
+  steps:
+  - intent: are_you_a_bot
+  - action: utter_are_you_a_bot
+- story: how are you
+  steps:
+  - intent: how_are_you
+  - action: utter_how_are_you
+- story: joke path
+  steps:
+  - intent: joke
+  - action: utter_joke
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+- story: out_of_scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+- story: nlu_fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: faq path
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_faq_option
+  - intent: definition_chatbot
+  - action: utter_definition_chatbot
+  - intent: vorteile_chatbot
+  - action: utter_vorteile_chatbot
+  - intent: ki_bei_chatbot
+  - action: utter_ki_bei_chatbot
+- story: oeffnungszeiten path
+  steps:
+  - intent: oeffnungszeiten
+  - action: utter_oeffnungszeiten
+- story: veranstaltungen path
+  steps:
+  - intent: veranstaltungen
+  - action: utter_veranstaltungen
+- story: award path
+  steps:
+  - intent: award
+  - action: utter_award
+- story: kontakt path
+  steps:
+  - intent: kontakt
+  - action: utter_kontakt
+- story: fachgruppen path
+  steps:
+  - intent: fachgruppen
+  - action: utter_fachgruppen
+- story: diwo path
+  steps:
+  - intent: diwo
+  - action: utter_diwo
+- story: makerSpace path
+  steps:
+  - intent: makerSpace
+  - action: utter_makerspace
+- story: unternehmen path
+  steps:
+  - intent: unternehmen
+  - action: utter_unternehmen
+- story: ausbildung path
+  steps:
+  - intent: ausbildung
+  - action: utter_ausbildung
+- story: dho path
+  steps:
+  - intent: dho
+  - action: utter_dho
+- story: achse path
+  steps:
+  - intent: achse
+  - action: utter_achse
+- story: hubdefinition path
+  steps:
+  - intent: hubdefinition
+  - action: utter_hubdefinition
+- story: digitalhubs path
+  steps:
+  - intent: digitalhubs
+  - action: utter_digitalhubs
