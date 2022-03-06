@@ -19,7 +19,6 @@
 - Hallo du bot
 - Hallo lieber bot.
 - Hallo bot.
-- Hey!
 - Hey robo
 - Hey bot
 - Hey bot kannst du hallo sagen
@@ -36,7 +35,6 @@
 - Kannst du uns begrüßen
 - sei gegrüßt
 - sei gegrüßt bot
-- Servus
 - Servus bot
 - hi bot
 - huhu
@@ -64,7 +62,6 @@
 - Überragend
 - Ich fühle mich gut
 - Top
-- Gut
 - Ganz gut
 - Auch gut
 - Genauso
@@ -116,6 +113,8 @@
 - Ok
 - Okay
 - Klar
+- ja
+- jup
 
 ## intent:deny
 - Nein
@@ -132,11 +131,12 @@
 - Nö
 - Nein danke
 - Nie im Leben
+- nein
 
 ## intent:are_you_a_bot
-- Bist du ein Bot? 
-- Bist du ein Mensch oder ein Bot? 
-- Rede ich mit einem Bot? 
+- Bist du ein Bot?
+- Bist du ein Mensch oder ein Bot?
+- Rede ich mit einem Bot?
 - Du bist aber kein Bot, oder?
 - Bist du denn ein Bot?
 - bist du ein Robotoer
@@ -155,7 +155,7 @@
 - help
 - Ich brauche Unterstützung
 - ich bin auf der Suche nach
-- kannst du mir helfen 
+- kannst du mir helfen
 - Könntest du mir behilflich sein?
 - Hast du einen Rat für mich?
 - Kannst du mich unterstützen?
@@ -176,8 +176,8 @@
 - lieben dank
 - toll danke
 - ok danke
-- perfekt danke 
-- danke für alles 
+- perfekt danke
+- danke für alles
 - danke für die hilfe
 - cool, danke
 - ja danke
@@ -203,14 +203,10 @@
 - Tschau
 - Bye
 - Bis bald
-- Wir sehen uns
 - Schönen Abend
 - Bis zum nächsten Mal
 - Goodbye
 - Tschüssi
-
-## intent:nlu_fallback
-
 
 ## intent:joke
 - erzähle einen witz
@@ -280,7 +276,7 @@
 - Was macht ein Chatbot?
 - Was kann ein Chatbot?
 
-## intent:vorteile_chatbot 
+## intent:vorteile_chatbot
 - Was sind die Vorteile eines Chatbots?
 - Vorteile chatbot
 - Kannst du mir sagen, was die Vorteile eines Bots sind?
@@ -306,7 +302,6 @@
 
 ## intent:back_to_help
 - Ich möchte zurück
-- Kann ich zurück zu Auswahl?
 - Ich will zur Auswahl
 - Zurück
 - Andere auswahl
@@ -317,93 +312,14 @@
 - Zum letzten Schritt zurück
 - Auswahlseite anzeigen
 
-## intent:reklamation
-- Ich möchte ein Teil zurückgeben
-- ich möchte ein produkt reklamieren
-- Ich will das Funkgerät zurückschicken
-- Das funkgerät soll zurück
-- Ich möchte mein Funkgerät reklamieren 
-- Ich möchte mein Funkgerät zurücksenden
-- Ich möchte ein Teil retournieren
-- Ich habe eine Retoure
-- Ich habe ein Raklamation
-- Ich habe eine Rücksendung
-
-## intent:falscher_artikel
-- Falscher Artikel versendet
-- dieser Artikel ist falsch
-- ich habe kein funkgerät erhalten
-- Falscher Artikel bei mir angekommen
-- Falschen Artikel erhalten
-- Anderen als bestellten Artikel erhalten
-- Fehlerhafte Sendung
-
-## intent:artikel_beschaedigt
-- Dieser Artikel ist defekt
-- das teil funktioniert nicht
-- Das Funkgerät ist beschädigt
-- Das Teil ist kaputt
-- Das Teil geht nicht
-- Das Funkgerät lässt sich nicht starten
-- Der Artikel funktioniert nicht einwandfrei
-- Der Artikel hat eine Macke
-- Funkgerät defekt
-- Funkgerät fehlerhaft
-
-## intent:new_order
-- Ich möchte eine neue Bestellung veranlassen
-- Neue Bestellung
-- eine neue bestellung bitte
-- Erneute Bestellung
-- Weitere Bestellung
-- Ich möchte neu bestellen
-- Ich möchte wieder bestellen
-- Ich habe einen neuen Auftrag für Sie
-- Ich habe einen weiteren Wunsch
-- New Order
-- Ich möchte ein weiteres Geschäft tätigen
-- Neuer Auftrag
-
 ## intent:cash_back
-- Ich möchte mein Geld zurück
-- Geld zurück
-- das geld zurück bitte
-- Ich hätte gern mein Geld zurück
 - Ich möchte mein Geld wieder haben
-- Rückzahlung
 - Bitte um Rückzahlung
 
 ## intent:bestellnummer
-- 1234567890
 - 1234567
-- 0987654321
-- 94637326424323
-- 242342565
-- 32566757
-- 2343508539
-- 0843658291
-- 647112233332343545765343461
-- 123234354
-- 1546365754342
-- 1212121212
-- 1827465099
-- 2828387566204692731
-- 675873923333378888888664222
-- 26389999987635333222555
 
 ## intent:emailadresse
-- dkakd@test.de
-- test@test.de
-- muster@email.com
-- testemail@email.de
-- abcde@xyz.com
-- hijkl@mnop.de
-- 12345@54321.com
-- 0008373@454554.de
-- hijkl@email.de
-- chatbot@email.com
-- m123ji6849@hhudheh.de
-- hdhuo@fhdhdu786.de
 - xyz@abc.de
 
 ## intent:funkgerät
@@ -436,3 +352,80 @@
 - Ich benötige Ihre Adresse
 - Adresse?
 - Postanschrift?
+- Postanschrift
+
+## intent:get_started
+-  
+
+## intent:bad
+- Mist
+
+## intent:fallback
+- Fallback
+
+## intent:oeffnungszeiten
+- Wie sind die Öffnungszeiten?
+- Wann hat der DHO geöffnet?
+- Wann ist der DHO geöffnet?
+
+## intent:digitalhubs
+- Welche digital hubs gibt es?
+
+## intent:hubdefinition
+- Was ist ein digital Hub?
+
+## intent:achse
+- Was ist die Netzwerk-IT-Achse?
+- Netzwerk-IT-Achse
+
+## intent:dho
+- DHO
+- Was ist der DHO?
+
+## intent:ausbildung
+- IT-Verbundausbildung
+- Was ist die IT-Verbundausbildung?
+
+## intent:unternehmen
+- Wie können Unternehmen Hilfe beantragen?
+
+## intent:makerSpace
+- Was ist der MakerSpace?
+- MakerSpace
+
+## intent:diwo
+- Digitale Woche
+- Wann findet die Digitale Woche statt?
+
+## intent:fachgruppen
+- Fachgruppen
+- Was für Fachgruppen gibt es?
+
+## intent:kontakt
+- Kontakt
+
+## intent:award
+- Award
+
+## intent:veranstaltungen
+- Veranstaltungen
+
+## synonym:DHO
+- Digital Hub Ostfriesland
+- digital hub ostfriesland
+- digital hub in Ostfriesland
+- Digital Hub in Ostfriesland
+
+## synonym:Digitale Woche
+- digitale woche
+- DiWo
+- diwo
+
+## synonym:MakerSpace
+- makerspace
+- maker space
+- Makerspace
+- Maker Space
+
+## synonym:Was für
+- Welche

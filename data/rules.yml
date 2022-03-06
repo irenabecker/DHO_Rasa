@@ -1,0 +1,6 @@
+version: "2.0"
+rules:
+- rule: Untitled Rule
+  steps:
+  - intent: get_started
+  - action: utter_welcome_message

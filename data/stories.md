@@ -17,7 +17,6 @@
 * greet
   - utter_greet
 * mood_unhappy
-  - utter_cheer_up
   - utter_did_that_help
 * deny
   - utter_bad
@@ -47,37 +46,6 @@
   - utter_please_rephrase
 
 ## goodbye path
-* goodbye
-  - utter_goodbye
-
-## reklamation path
-* help
-  - utter_help
-* back_to_help
-   - utter_back_to_help
-* reklamation
-  - utter_reklamation
-  - utter_reklamation_option
-* falscher_artikel
-  - utter_falscher_artikel
-* artikel_beschaedigt
-  - utter_artikel_beschaedigt
-* new_order 
-  - utter_new_order
-* cash_back
-  - utter_cash_back
-* emailadresse
-  - utter_emailadresse
-* bestellnummer
-  - utter_bestellnummer
-* funkgerät
-  - utter_funkgerät
-* radargerät
-  - utter_radargerät
-* firmenadresse
-  - utter_firmenadresse
-* thanks
-  - utter_thanks
 * goodbye
   - utter_goodbye
 

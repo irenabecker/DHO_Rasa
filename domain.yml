@@ -1,107 +1,72 @@
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
 intents:
-  - greet
-  - how_are_you
-  - goodbye
-  - mood_good
-  - mood_unhappy
-  - affirm
-  - deny
-  - help
-  - are_you_a_bot
-  - out_of_scope
-  - thanks
-  - nlu_fallback
-  - joke
-  - faq
-  - definition_chatbot
-  - vorteile_chatbot
-  - ki_bei_chatbot
-  - reklamation
-  - falscher_artikel
-  - artikel_beschaedigt
-  - back_to_help
-  - new_order
-  - cash_back
-  - bestellnummer
-  - emailadresse
-  - funkgerät
-  - radargerät
-  - firmenadresse
-
+- greet
+- how_are_you
+- goodbye
+- mood_good
+- mood_unhappy
+- affirm
+- deny
+- help
+- are_you_a_bot
+- out_of_scope
+- thanks
+- nlu_fallback
+- joke
+- faq
+- definition_chatbot
+- vorteile_chatbot
+- ki_bei_chatbot
+- reklamation
+- falscher_artikel
+- artikel_beschaedigt
+- back_to_help
+- new_order
+- cash_back
+- bestellnummer
+- emailadresse
+- funkgerät
+- radargerät
+- firmenadresse
+- get_started
+- bad
+- fallback
+- oeffnungszeiten
+- digitalhubs
+- hubdefinition
+- achse
+- dho
+- ausbildung
+- unternehmen
+- makerSpace
+- diwo
+- fachgruppen
+- kontakt
+- award
+- veranstaltungen
 responses:
   utter_greet:
   - buttons:
-    - payload: /reklamation
-      title: Reklamation
-    - payload: /faq
-      title: FAQ's
-    text: "Moin! Wobei kann ich dir behilflich sein?"
-
-  utter_reklamation:
-  - text: "Wenn du ein Produkt reklamieren möchtest, brauchen wir für die weitere Bearbeitung einen Grund."
-
-  utter_reklamation_option:
-  - buttons:
-    - payload: /falscher_artikel
-      title: Falscher Artikel
-    - payload: /artikel_beschaedigt
-      title: Artikel beschädigt
-    - payload: /back_to_help
-      title: Zurück
-    text: "Wähle eine Option:" 
-
-  utter_back_to_help:
-  - text: "Möchtest du ein Produkt reklamieren oder etwas über die FAQ's erfahren? Tippe es einfach in den Chat ein:"  
-
-  utter_falscher_artikel:
-  - buttons:
-    - payload: /new_order
-      title: Neue Lieferung
-    - payload: /cash_back
-      title: Geld zurück
-    text: "Das tut uns sehr leid, dass der Artikel falsch ist! Sollen wir einen neuen Artikel schicken, oder möchtest du dein Geld zurück?"
-
-  utter_artikel_beschaedigt:
-  - buttons:
-    - payload: /new_order
-      title: Neue Lieferung
-    - payload: /cash_back
-      title: Geld zurück
-    text: "Das tut uns sehr leid, dass der Artikel beschädigt ist! Sollen wir einen neuen Artikel schicken, oder möchtest du dein Geld zurück?"
-
-  utter_new_order:
-  - text: "Neue Bestellung? Gar kein Problem! Für die weitere Bearbeitung benötigen wir deine E-Mail Adresse:"
-
-  utter_cash_back:
-  - text: "Geld zurück? Gar kein Problem! Für die weitere Bearbeitung benötigen wir deine E-Mail Adresse:"
-
-  utter_emailadresse:
-  - text: "Vielen Dank! Wie lautet deine Bestellnummer:"
-
-  utter_bestellnummer:
-  - buttons:
-    - payload: /funkgerät
-      title: Funkgerät
-    - payload: /radargerät
-      title: Radargerät
-    text: "Notiert! :) Um welches Produkt aus deiner Bestellung handelt es sich? Funkgerät STR-6000-A oder Radargerät?"
-
-  utter_funkgerät:
-  - text: "Okay, kein Problem. Du kannst das Funkgerät zu unserer Firmenadresse zurückschicken. Um den Rest kümmern wir uns! ;)"
-
-  utter_radargerät:
-  - text: "Okay, kein Problem. Du kannst das Radargerät zu unserer Firmenadresse zurückschicken. Um den Rest kümmern wir uns! ;)"
-
+    - payload: /achse
+      title: Netzwerk-IT-Achse
+    - payload: /ausbildung
+      title: IT-Verbundausbildung
+    - payload: /veranstaltungen
+      title: Veranstaltungen
+    - payload: /unternehmen
+      title: Unterstützung für Unternehmen
+    - payload: /dho
+      title: DHO
+    - payload: /definition_chabot
+      title: Chatbot
+    text: Moin! Gerne beantworte ich Dir alle Fragen rund um den Digital Hub Ostfriesland!
   utter_firmenadresse:
-  - text: "Die Firmenadresse lautet: Musterunternehmen XYZ, Musterstraße 123, Musterort"
-
+  - text: 'Unsere Adresse lautet: Gaswerkstraße 18, 26789 Leer (Ostfriesland)'
   utter_faq:
-  - text: "Folgend sind häufig gestellte Fragen rund um das Thema Chatbot und KI aufgelistet:"
-
+  - text: 'Folgend sind häufig gestellte Fragen rund um das Thema Chatbot und KI aufgelistet:'
   utter_faq_option:
   - buttons:
     - payload: /definition_chatbot
@@ -110,60 +75,80 @@ responses:
       title: Vorteile des Chatbots
     - payload: /ki_bei_chatbot
       title: KI bei Chatbots
-    text: "Über welches Thema möchtest du mehr erfahren?"   
-  
-
+    text: Über welches Thema möchtest du mehr erfahren?
   utter_help:
-  - text: "Wie kann ich dir helfen?"
-
+  - text: Wie kann ich dir helfen?
   utter_happy:
-  - text: "Mir geht es gut :)"
-  - text: "Alles bestens! :)"
-
+  - text: Mir geht es gut :)
+  - text: Alles bestens! :)
   utter_good:
-  - text: "Schön, das freut mich."
-
+  - text: Schön, das freut mich.
   utter_bad:
-  - text: "Schade, das tut mir Leid."
-
-  utter_cheer_up:
-  - text: "Schade, das tut mir Leid. Hier ist etwas um dich aufzumuntern:"
-    image: "https://i.imgur.com/nGF1K8f.jpg" 
-
+  - text: Schade, das tut mir Leid.
   utter_did_that_help:
-  - text: "Hat es dir geholfen?"
-
+  - text: Hat es dir geholfen?
   utter_are_you_a_bot:
-  - text: "Ich bin ein Chat-Roboter und entwickelt mit Rasa."
-
+  - text: Ich bin ein Chat-Roboter und wurde mit Rasa umgesetzt.
   utter_how_are_you:
-  - text: "Meine Schaltkreise sind gut geölt :)"
-
+  - text: Ich bin ein sehr glücklicher Chatbot :)
   utter_thanks:
-  - text: "Gerne! :)"
-  - text: "Kein Problem! :)"
-
+  - text: Gerne! :)
+  - text: Kein Problem! :)
   utter_out_of_scope:
-  - text: "Entschuldige, dabei kann ich Dir nicht weiterhelfen."
-  - text: "Tut mir Leid, das gehört nicht zu meinem Aufgabenbereich."
-
+  - text: Entschuldige, dabei kann ich Dir nicht weiterhelfen.
+  - text: Tut mir Leid, das gehört nicht zu meinem Aufgabenbereich.
   utter_goodbye:
-  - text: "Auf Wiedersehen"
-  - text: "Bis zum nächsten Mal! :)"
-  - text: "Wir sehen uns! :)"
-
+  - text: Auf Wiedersehen
+  - text: Bis zum nächsten Mal! :)
+  - text: Wir sehen uns! :)
   utter_please_rephrase:
-  - text: "Es tut mir Leid, ich habe das nicht ganz verstanden. Kannst du es umformulieren?"
-
+  - text: Es tut mir Leid, ich habe das nicht ganz verstanden. Kannst du es umformulieren?
   utter_joke:
-  - text: "Treffen sich zwei Roboter, sagt der eine zu dem anderen: Hast du eine Schraube locker?"
-
+  - text: 'Treffen sich zwei Roboter, sagt der eine zu dem anderen: Hast du eine Schraube locker?'
   utter_definition_chatbot:
-  - text: "Der Begriff Chatbot ist ein Kofferwort und wird aus den beiden englischen Wörtern Chat (dt. plaudern) und Bot (Kurzform für Robot) gebildet. Unter einem Chatbot wird daher ein System verstanden, das fähig ist, mit einem menschlichen Benutzer in einen Dialog zu treten (Chat) und gewisse Aufgaben autonom zu erledigen (Bot)."
-
+  - text: Der Begriff Chatbot ist ein Kofferwort und wird aus den beiden englischen Wörtern Chat (dt. plaudern) und Bot (Kurzform für Robot) gebildet. Unter einem Chatbot wird daher ein System verstanden, das fähig ist, mit einem menschlichen Benutzer in einen Dialog zu treten (Chat) und gewisse Aufgaben autonom zu erledigen (Bot).
   utter_vorteile_chatbot:
-  - text: "Der Vorteil ist, dass ein Chatbot - wie ich - jederzeit erreichbar ist. Ich kenne keine Überlastung durch Aktivitätsspitzen. Außerdem kommen Sie durch mich schnell an die gewünschten Informationen, ohne zum Telefonhörer zu greifen oder lange auf der Webseite suchen zu müssen."
-
+  - text: Der Vorteil ist, dass ein Chatbot - wie ich - jederzeit erreichbar ist. Ich kenne keine Überlastung durch Aktivitätsspitzen. Außerdem kommen Sie durch mich schnell an die gewünschten Informationen, ohne zum Telefonhörer zu greifen oder lange auf der Webseite suchen zu müssen.
   utter_ki_bei_chatbot:
-  - text: "Die Künstliche Intelligenz von Chatbots steckt in der Fähigkeit, Eingaben in natürlicher Sprache zu dekodieren und maschinell zu verarbeiten. Diesen KI-Prozess bezeichnet mal als Natural Language Understanding (NLU). Da natürliche Sprachen historisch gewachsen sind, sind sie von lexikalischer und struktureller Mehrdeutigkeit geprägt. Zudem haben Menschen unterschiedliche Sprachstile und nutzen verschiedene Varietäten und Ausdrucksformen. Also besteht die Leistung der KI bei NLU-Prozessen darin, die Absicht hinter den Fragen der Nutzer zu erkennen, um ihnen passende Antworten zuzuordnen."
-
+  - text: Die Künstliche Intelligenz von Chatbots steckt in der Fähigkeit, Eingaben in natürlicher Sprache zu dekodieren und maschinell zu verarbeiten. Diesen KI-Prozess bezeichnet mal als Natural Language Understanding (NLU). Da natürliche Sprachen historisch gewachsen sind, sind sie von lexikalischer und struktureller Mehrdeutigkeit geprägt. Zudem haben Menschen unterschiedliche Sprachstile und nutzen verschiedene Varietäten und Ausdrucksformen. Also besteht die Leistung der KI bei NLU-Prozessen darin, die Absicht hinter den Fragen der Nutzer zu erkennen, um ihnen passende Antworten zuzuordnen.
+  utter_welcome_message:
+  - text: Wie kann ich dir helfen?
+  utter_cheer_up:
+  - text: Be happy and enjoy live
+  utter_oeffnungszeiten:
+  - text: Der DHO ist Mo-Fr von 9 bis 17 Uhr geöffnet. Komm gerne vorbei oder frage mich gerne, was Dich interessiert.
+  utter_dho:
+  - buttons:
+    - payload: /veranstaltungen
+      title: Veranstaltungen
+    - payload: /unternehmen
+      title: Unterstützung für Unternehmen
+    - payload: /ausbildung
+      title: IT-Verbunausbildung
+    text: Der DHO wird durch den Landkreis Leer organisiert. Er ist Knotenpunkt für digitale Innovationen in Ostfriesland und vernetzt Wirtschaft, Wissenschaft und Bildungseinrichtungen durch Zusammenarbeit, Förderung und Austausch. Dabei steht die Beratung und Förderung lokaler Unternehmen, der Aufbau von Plattformen zu digitalen Schlüsselthemen, die Bildung von Fachgruppen, sowie Informations-Veranstaltungen und Schulungen im Mittelpunkt. U.a. werden durch den DHO die Digitale Woche, Hackathons, Fortbildungen, das Regionalforum Digitalisierung und Schulprojekte organisiert. Hast du konkrete Fragen?
+  utter_hubdefinition:
+  - text: 'Digital Hub ist ein Ansatz des Bundesministeriums für Wirtschaft und Energie, den Wirtschaftsstandort Deutschland zu sichern. Dabei werden mittelständische Unternehmen, Start-ups und Forscher zusammengebracht, um sich gegenseitig mit ihren individuellen Stärken zu unterstützen. U.a. gibt es Hubs in Hamburg, Berlin, Potsdam, Dresden/Leipzig, Nürnberg/Erlangen, Stuttgart, München, Karlsruhe, Mannheim/Ludwigshafen, Frankfurt/Darmstadt, Köln, Dortmund. Mehr dazu findest Du hier: https://www.de-hub.de/'
+  utter_achse:
+  - text: 'Das Netzwerk ist ein wachsendes Kooperationsbündnis ansässiger IT anbietender Firmen und weiterer branchenaffiner Akteure wie den Wissens- und Bildungseinrichtungen einschließlich der Hochschule Emden/Leer und den ansässigen Wirtschaftsförderungen. Mehr dazu findest Du hier: http://lyra.et-inf.fho-emden.de:19120/achse.html'
+  utter_ausbildung:
+  - text: |-
+      Die IT-Achse möchte mit dem von der NBank geförderten Projekt dem steigenden Fachkräftemangel entgegenwirken und unterstützt den Aufbau von Ausbildungsverbänden innerhalb der Ems-Achsen-Region. 
+      Damit soll kleinen und fachlich hoch spezialisierten Betrieben ermöglicht werden, sich an der Ausbildung von IT-Fachkräften zu beteiligen. Dabei fokussiert sich die Verbundausbildung besonders auf bisher unterrepräsentierte Gruppen in den IT-Berufen. Zahlreiche Vorteile für Betrieb und Ausbildende findest Du hier: http://lyra.et-inf.fho-emden.de:19120/ausbildung.html
+  utter_unternehmen:
+  - text: 'Zur Unterstützung von Unternehmen im Bereich Digitalisierung gibt es zahlreiche Förderungen: http://lyra.et-inf.fho-emden.de:19120/unternehmen.html'
+  utter_digitalhubs:
+  - text: 'Es gibt Hubs in Hamburg, Berlin, Potsdam, Dresden/Leipzig, Nürnberg/Erlangen, Stuttgart, München, Karlsruhe, Mannheim/Ludwigshafen, Frankfurt/Darmstadt, Köln, Dortmund. Mehr dazu findest Du hier: https://www.de-hub.de/'
+  utter_fachrguppen:
+  - text: Es gibt 6 Fachgruppen
+  utter_diwo:
+  - text: Die Digitale Woche ist ... Die nächste Digitale Woche findet statt am...
+  utter_makerspace:
+  - text: Der Makerspace ist super
+  utter_kontakt:
+  - text: Du erreichst uns telefonisch oder per Mail und Formular. Sonst kommt einfach vorbei.
+  utter_award:
+  - text: |-
+      Der IT-cares Award wurde im Rahmen des Digital Summit 2020 verliehen. Im Forum Alte Werft in Papenburg trafen IT-Wirtschaft und IT-Nachwuchs aufeinander.
+      Der Digital Summit steht für Netzwerken, für Kooperation und einen scharfen Blick auf zukunftsweisende Trends und Entwicklungen. Zum ersten Mal wurde in diesem Rahmen der Ehrenamtspreis "IT-Cares.Award" verliehen. http://lyra.et-inf.fho-emden.de:19120/award.html
+  utter_veranstaltungen:
+  - text: 'Folgende Veranstaltungen finden demnächst an: http://lyra.et-inf.fho-emden.de:19120/veranstaltungen.html'
