@@ -406,9 +406,21 @@
 
 ## intent:award
 - Award
+- Was ist der IT-Cares.Award?
+- Wer bekommt den award?
 
 ## intent:veranstaltungen
 - Veranstaltungen
+- Welche Veranstaltungen gibt es?
+- Welche Veranstaltungen organisiert der DHO?
+- Welche Veranstaltungen finden demnächst statt?
+
+## intent:summit
+- Was ist der Digital Summit?
+- Digital Summit
+
+## intent:summit_when
+- Wann findet der Digital Summit statt?
 
 ## synonym:DHO
 - Digital Hub Ostfriesland

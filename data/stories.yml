@@ -27,6 +27,8 @@ stories:
   steps:
   - intent: are_you_a_bot
   - action: utter_are_you_a_bot
+  - intent: affirm
+  - action: utter_definition_chatbot
 - story: how are you
   steps:
   - intent: how_are_you
@@ -116,3 +118,15 @@ stories:
   steps:
   - intent: digitalhubs
   - action: utter_digitalhubs
+- story: deny
+  steps:
+  - intent: deny
+  - action: utter_deny
+- story: summit
+  steps:
+  - intent: summit
+  - action: utter_summit
+- story: summit when
+  steps:
+  - intent: summit_when
+  - action: utter_summit_when

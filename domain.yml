@@ -47,22 +47,24 @@ intents:
 - kontakt
 - award
 - veranstaltungen
+- yes
+- utter_deny
+- summit
+- summit_when
 responses:
   utter_greet:
   - buttons:
     - payload: /achse
       title: Netzwerk-IT-Achse
-    - payload: /ausbildung
-      title: IT-Verbundausbildung
     - payload: /veranstaltungen
       title: Veranstaltungen
-    - payload: /unternehmen
-      title: Unterstützung für Unternehmen
     - payload: /dho
       title: DHO
+    - payload: /digitalhubs
+      title: Digital Hubs
     - payload: /definition_chabot
       title: Chatbot
-    text: Moin! Gerne beantworte ich Dir alle Fragen rund um den Digital Hub Ostfriesland!
+    text: 'Moin! Gerne beantworte ich Dir alle Fragen rund um den Digital Hub Ostfriesland! Hier eine kleine Themenausahl:'
   utter_firmenadresse:
   - text: 'Unsere Adresse lautet: Gaswerkstraße 18, 26789 Leer (Ostfriesland)'
   utter_faq:
@@ -88,7 +90,7 @@ responses:
   utter_did_that_help:
   - text: Hat es dir geholfen?
   utter_are_you_a_bot:
-  - text: Ich bin ein Chat-Roboter und wurde mit Rasa umgesetzt.
+  - text: Ich bin ein Chatbot und wurde mit Rasa umgesetzt. Möchtest Du mehr über Chatbots erfahren?
   utter_how_are_you:
   - text: Ich bin ein sehr glücklicher Chatbot :)
   utter_thanks:
@@ -129,7 +131,10 @@ responses:
   utter_hubdefinition:
   - text: 'Digital Hub ist ein Ansatz des Bundesministeriums für Wirtschaft und Energie, den Wirtschaftsstandort Deutschland zu sichern. Dabei werden mittelständische Unternehmen, Start-ups und Forscher zusammengebracht, um sich gegenseitig mit ihren individuellen Stärken zu unterstützen. U.a. gibt es Hubs in Hamburg, Berlin, Potsdam, Dresden/Leipzig, Nürnberg/Erlangen, Stuttgart, München, Karlsruhe, Mannheim/Ludwigshafen, Frankfurt/Darmstadt, Köln, Dortmund. Mehr dazu findest Du hier: https://www.de-hub.de/'
   utter_achse:
-  - text: 'Das Netzwerk ist ein wachsendes Kooperationsbündnis ansässiger IT anbietender Firmen und weiterer branchenaffiner Akteure wie den Wissens- und Bildungseinrichtungen einschließlich der Hochschule Emden/Leer und den ansässigen Wirtschaftsförderungen. Mehr dazu findest Du hier: http://lyra.et-inf.fho-emden.de:19120/achse.html'
+  - buttons:
+    - payload: summit
+      title: Digital Summit
+    text: 'Das Netzwerk ist ein wachsendes Kooperationsbündnis ansässiger IT anbietender Firmen und weiterer branchenaffiner Akteure wie den Wissens- und Bildungseinrichtungen einschließlich der Hochschule Emden/Leer und den ansässigen Wirtschaftsförderungen. Jährlich wird der Digital Summit durch die Achse veranstaltet. Mehr zur IT-Achse findest Du hier: http://lyra.et-inf.fho-emden.de:19120/achse.html'
   utter_ausbildung:
   - text: |-
       Die IT-Achse möchte mit dem von der NBank geförderten Projekt dem steigenden Fachkräftemangel entgegenwirken und unterstützt den Aufbau von Ausbildungsverbänden innerhalb der Ems-Achsen-Region. 
@@ -138,17 +143,26 @@ responses:
   - text: 'Zur Unterstützung von Unternehmen im Bereich Digitalisierung gibt es zahlreiche Förderungen: http://lyra.et-inf.fho-emden.de:19120/unternehmen.html'
   utter_digitalhubs:
   - text: 'Es gibt Hubs in Hamburg, Berlin, Potsdam, Dresden/Leipzig, Nürnberg/Erlangen, Stuttgart, München, Karlsruhe, Mannheim/Ludwigshafen, Frankfurt/Darmstadt, Köln, Dortmund. Mehr dazu findest Du hier: https://www.de-hub.de/'
-  utter_fachrguppen:
+  utter_fachgruppen:
   - text: Es gibt 6 Fachgruppen
   utter_diwo:
-  - text: Die Digitale Woche ist ... Die nächste Digitale Woche findet statt am...
+  - text: 'Die fünfte Auflage der Themen-Woche findet dieses Jahr vom 28. Mai bis zum 2. Juni  statt und wird vom Landkreis Leer gemeinsam mit der Sparkasse LeerWittmund und dem SoftwareNetzwerk Leer e.V. veranstaltet. Wie im vergangenen Jahr wird die Themen-Woche aufgrund der Corona-Pandemie in virtueller Form angeboten. Hier findest du einige Einblicke zu den Digitalen Wochen  der letzten Jahre: http://lyra.et-inf.fho-emden.de:19120/diwo.html'
   utter_makerspace:
   - text: Der Makerspace ist super
   utter_kontakt:
-  - text: Du erreichst uns telefonisch oder per Mail und Formular. Sonst kommt einfach vorbei.
+  - text: Du erreichst uns telefonisch unter der 0491 926-1783 oder per Mail. Oder kommt persönlich vorbei - wir sind Mo-Fr von 9-15 Uhr anzureffen.
   utter_award:
-  - text: |-
-      Der IT-cares Award wurde im Rahmen des Digital Summit 2020 verliehen. Im Forum Alte Werft in Papenburg trafen IT-Wirtschaft und IT-Nachwuchs aufeinander.
-      Der Digital Summit steht für Netzwerken, für Kooperation und einen scharfen Blick auf zukunftsweisende Trends und Entwicklungen. Zum ersten Mal wurde in diesem Rahmen der Ehrenamtspreis "IT-Cares.Award" verliehen. http://lyra.et-inf.fho-emden.de:19120/award.html
+  - buttons:
+    - payload: summit
+      title: Digital Summit
+    text: 'Der IT-ACHSE-CARES.AWARD sowie der IT-ACHSE-FOUNDING.AWARD werden beim Digital Summit verliehen. Die IT-Achse möchte mit diesen Auszeichnungen ehrenamtliche Initiativen aus den Regionen Ostfriesland, Grafschaft Bentheim und dem Emsland ehren, welche in besonderer Weise junge Menschen an das Thema IT heranführen. Einen Einblick in ausgezeichnete Projekte bekommst Du hier: http://lyra.et-inf.fho-emden.de:19120/award.html. Das Bewerbungsformular, sowie weitere Informationen findest Du hier: https://it-achse.de/digital-summit-2022/'
   utter_veranstaltungen:
   - text: 'Folgende Veranstaltungen finden demnächst an: http://lyra.et-inf.fho-emden.de:19120/veranstaltungen.html'
+  utter_deny:
+  - text: Alles klar.
+  utter_summit:
+  - text: 'Der Digital Summit ist die Jahresveranstaltung der IT-Achse. Hier werden u.a.  der IT-ACHSE-CARES.AWARD sowie die Auszeichnung von Initiativen mit dem IT-ACHSE-FOUNDING.AWARD verliehen. Der Digital Summit findet dieses Jahr am Mittwoch, den 04. Mai um 16:00 Uhr im ROSEN Technology and Research Center in Lingen statt. Zur Anmeldung geht es hier: https://it-achse.de/digital-summit-2022/'
+  utter_summit_when:
+  - text: 'Der Digital Summit 2022 findet am Mittwoch, den 04. Mai um 16:00 Uhr im ROSEN Technology and Research Center in Lingen statt. Zur Anmeldung geht es hier: https://it-achse.de/digital-summit-2022/'
+actions:
+- deny
