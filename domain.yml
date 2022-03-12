@@ -51,6 +51,7 @@ intents:
 - utter_deny
 - summit
 - summit_when
+- mood_bad
 responses:
   utter_greet:
   - buttons:
@@ -92,7 +93,7 @@ responses:
   utter_are_you_a_bot:
   - text: Ich bin ein Chatbot und wurde mit Rasa umgesetzt. Möchtest Du mehr über Chatbots erfahren?
   utter_how_are_you:
-  - text: Ich bin ein sehr glücklicher Chatbot :)
+  - text: Mir geht es gut - ich bin ein sehr glücklicher Chatbot. Wie geht es Dir?
   utter_thanks:
   - text: Gerne! :)
   - text: Kein Problem! :)
@@ -127,6 +128,8 @@ responses:
       title: Unterstützung für Unternehmen
     - payload: /ausbildung
       title: IT-Verbunausbildung
+    - payload: /makerSpace
+      title: ' MakerSpace'
     text: Der DHO wird durch den Landkreis Leer organisiert. Er ist Knotenpunkt für digitale Innovationen in Ostfriesland und vernetzt Wirtschaft, Wissenschaft und Bildungseinrichtungen durch Zusammenarbeit, Förderung und Austausch. Dabei steht die Beratung und Förderung lokaler Unternehmen, der Aufbau von Plattformen zu digitalen Schlüsselthemen, die Bildung von Fachgruppen, sowie Informations-Veranstaltungen und Schulungen im Mittelpunkt. U.a. werden durch den DHO die Digitale Woche, Hackathons, Fortbildungen, das Regionalforum Digitalisierung und Schulprojekte organisiert. Hast du konkrete Fragen?
   utter_hubdefinition:
   - text: 'Digital Hub ist ein Ansatz des Bundesministeriums für Wirtschaft und Energie, den Wirtschaftsstandort Deutschland zu sichern. Dabei werden mittelständische Unternehmen, Start-ups und Forscher zusammengebracht, um sich gegenseitig mit ihren individuellen Stärken zu unterstützen. U.a. gibt es Hubs in Hamburg, Berlin, Potsdam, Dresden/Leipzig, Nürnberg/Erlangen, Stuttgart, München, Karlsruhe, Mannheim/Ludwigshafen, Frankfurt/Darmstadt, Köln, Dortmund. Mehr dazu findest Du hier: https://www.de-hub.de/'
@@ -138,26 +141,26 @@ responses:
   utter_ausbildung:
   - text: |-
       Die IT-Achse möchte mit dem von der NBank geförderten Projekt dem steigenden Fachkräftemangel entgegenwirken und unterstützt den Aufbau von Ausbildungsverbänden innerhalb der Ems-Achsen-Region. 
-      Damit soll kleinen und fachlich hoch spezialisierten Betrieben ermöglicht werden, sich an der Ausbildung von IT-Fachkräften zu beteiligen. Dabei fokussiert sich die Verbundausbildung besonders auf bisher unterrepräsentierte Gruppen in den IT-Berufen. Zahlreiche Vorteile für Betrieb und Ausbildende findest Du hier: http://lyra.et-inf.fho-emden.de:19120/ausbildung.html
+      Damit soll kleinen und fachlich hoch spezialisierten Betrieben ermöglicht werden, sich an der Ausbildung von IT-Fachkräften zu beteiligen. Zahlreiche Vorteile für Betrieb und Ausbildende findest Du hier: http://lyra.et-inf.fho-emden.de:19120/ausbildung.html
   utter_unternehmen:
   - text: 'Zur Unterstützung von Unternehmen im Bereich Digitalisierung gibt es zahlreiche Förderungen: http://lyra.et-inf.fho-emden.de:19120/unternehmen.html'
   utter_digitalhubs:
   - text: 'Es gibt Hubs in Hamburg, Berlin, Potsdam, Dresden/Leipzig, Nürnberg/Erlangen, Stuttgart, München, Karlsruhe, Mannheim/Ludwigshafen, Frankfurt/Darmstadt, Köln, Dortmund. Mehr dazu findest Du hier: https://www.de-hub.de/'
   utter_fachgruppen:
-  - text: Es gibt 6 Fachgruppen
+  - text: 'Es gibt 6 Fachgruppen: Industrie 4.o/IoT, Visualisierung/VR-Ar, Junge IT-Talente/Fachkräfte/Weiterbildung, IT-Sicherheit, KI/Data Science, Gesellschaft/Wirtschaft/Smart Region. Jede Fachgruppen besteht aus 10-12 Personen aus Wirtschaft uns Wissenschaft.'
   utter_diwo:
   - text: 'Die fünfte Auflage der Themen-Woche findet dieses Jahr vom 28. Mai bis zum 2. Juni  statt und wird vom Landkreis Leer gemeinsam mit der Sparkasse LeerWittmund und dem SoftwareNetzwerk Leer e.V. veranstaltet. Wie im vergangenen Jahr wird die Themen-Woche aufgrund der Corona-Pandemie in virtueller Form angeboten. Hier findest du einige Einblicke zu den Digitalen Wochen  der letzten Jahre: http://lyra.et-inf.fho-emden.de:19120/diwo.html'
   utter_makerspace:
-  - text: Der Makerspace ist super
+  - text: Der Makerspace ist ein offener Kreativraum, der insbesondere für Schüler, Studierende und Unternehmen ausgelegt ist. Er beinhaltet 3D-Drucker/Scanner, Platinencomputer, Roboter, Sensorik, Ausstattung für Software-Entwicklung u.v.m.
   utter_kontakt:
-  - text: Du erreichst uns telefonisch unter der 0491 926-1783 oder per Mail. Oder kommt persönlich vorbei - wir sind Mo-Fr von 9-15 Uhr anzureffen.
+  - text: Du erreichst uns telefonisch unter der 0491 926-1783 oder per Mail. Oder kommt persönlich vorbei - wir sind Mo-Fr von 9-15 Uhr anzutreffen.
   utter_award:
   - buttons:
     - payload: summit
       title: Digital Summit
     text: 'Der IT-ACHSE-CARES.AWARD sowie der IT-ACHSE-FOUNDING.AWARD werden beim Digital Summit verliehen. Die IT-Achse möchte mit diesen Auszeichnungen ehrenamtliche Initiativen aus den Regionen Ostfriesland, Grafschaft Bentheim und dem Emsland ehren, welche in besonderer Weise junge Menschen an das Thema IT heranführen. Einen Einblick in ausgezeichnete Projekte bekommst Du hier: http://lyra.et-inf.fho-emden.de:19120/award.html. Das Bewerbungsformular, sowie weitere Informationen findest Du hier: https://it-achse.de/digital-summit-2022/'
   utter_veranstaltungen:
-  - text: 'Folgende Veranstaltungen finden demnächst an: http://lyra.et-inf.fho-emden.de:19120/veranstaltungen.html'
+  - text: 'Folgende Veranstaltungen finden demnächst statt: http://lyra.et-inf.fho-emden.de:19120/veranstaltungen.html'
   utter_deny:
   - text: Alles klar.
   utter_summit:

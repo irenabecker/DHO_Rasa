@@ -115,6 +115,7 @@
 - Klar
 - ja
 - jup
+- JA
 
 ## intent:deny
 - Nein
@@ -161,6 +162,7 @@
 - Kannst du mich unterstützen?
 - Magst du mir helfen?
 - Ich habe eine Frage
+- Was kannst du?
 
 ## intent:thanks
 - Danke
@@ -343,16 +345,15 @@
 - firmenanschrift
 - anschrift
 - Firma Ort?
-- An welche Anschrift soll ich es schicken?
 - Geben Sie mir bitte Ihre Anschrift
 - Wie lautet Ihre Adresse?
-- Wohin soll das Paket versendet werden?
 - Wie lautet die Postanschrift?
 - Teilen Sie mir bitte Ihre Anschrift mit
 - Ich benötige Ihre Adresse
 - Adresse?
 - Postanschrift?
 - Postanschrift
+- Wo befindet sich der DHO?
 
 ## intent:get_started
 -  
@@ -381,10 +382,14 @@
 ## intent:dho
 - DHO
 - Was ist der DHO?
+- dho
 
 ## intent:ausbildung
 - IT-Verbundausbildung
 - Was ist die IT-Verbundausbildung?
+- Ich suche einen Ausbildungsplatz?
+- Ausbildung
+- ausbildung
 
 ## intent:unternehmen
 - Wie können Unternehmen Hilfe beantragen?
@@ -403,6 +408,7 @@
 
 ## intent:kontakt
 - Kontakt
+- Wie kann ich Kontakt zum DHO aufnehmen?
 
 ## intent:award
 - Award
@@ -438,6 +444,10 @@
 - maker space
 - Makerspace
 - Maker Space
+
+## synonym:Netzwerk-IT-Achse
+- Achse
+- IT Achse
 
 ## synonym:Was für
 - Welche

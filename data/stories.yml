@@ -6,15 +6,6 @@ stories:
   - action: utter_greet
   - intent: mood_good
   - action: utter_good
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_good
 - story: sad path 2
   steps:
   - intent: greet
@@ -33,10 +24,8 @@ stories:
   steps:
   - intent: how_are_you
   - action: utter_how_are_you
-- story: joke path
-  steps:
-  - intent: joke
-  - action: utter_joke
+  - intent: mood_good
+  - action: utter_good
 - story: thanks
   steps:
   - intent: thanks
@@ -130,3 +119,13 @@ stories:
   steps:
   - intent: summit_when
   - action: utter_summit_when
+- story: how are you2
+  steps:
+  - intent: how_are_you
+  - action: utter_how_are_you
+  - intent: mood_bad
+  - action: utter_bad
+- story: joke
+  steps:
+  - intent: joke
+  - action: utter_joke
