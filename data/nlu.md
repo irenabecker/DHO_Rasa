@@ -39,6 +39,11 @@
 - hi bot
 - huhu
 - huhu sag mal hallo
+- Ich möchte zurück
+- Zurück
+- Wieder zurück
+- Zum letzten Schritt zurück
+- Start
 
 ## intent:how_are_you
 - Wie geht es dir?
@@ -303,15 +308,11 @@
 - Was macht den Chatbot intelligent?
 
 ## intent:back_to_help
-- Ich möchte zurück
 - Ich will zur Auswahl
-- Zurück
 - Andere auswahl
-- Wieder zurück
 - Auswahl ändern
 - Back
 - Rückgängig
-- Zum letzten Schritt zurück
 - Auswahlseite anzeigen
 
 ## intent:cash_back

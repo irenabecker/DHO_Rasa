@@ -80,7 +80,16 @@ responses:
       title: KI bei Chatbots
     text: Über welches Thema möchtest du mehr erfahren?
   utter_help:
-  - text: Wie kann ich dir helfen?
+  - buttons:
+    - payload: dho
+      title: DHO
+    - payload: diwo
+      title: Digitale Woche
+    - payload: ausbildung
+      title: IT-Verbundausbildung
+    - payload: chatbot
+      title: Chatbot
+    text: Zu welchem Thema möchtest Du mehr erfahren?
   utter_happy:
   - text: Mir geht es gut :)
   - text: Alles bestens! :)
@@ -91,7 +100,10 @@ responses:
   utter_did_that_help:
   - text: Hat es dir geholfen?
   utter_are_you_a_bot:
-  - text: Ich bin ein Chatbot und wurde mit Rasa umgesetzt. Möchtest Du mehr über Chatbots erfahren?
+  - buttons:
+    - payload: definition_chatbot
+      title: Erfahre mehr über Chatbots
+    text: Ich bin ein Chatbot und wurde mit Rasa umgesetzt.
   utter_how_are_you:
   - text: Mir geht es gut - ich bin ein sehr glücklicher Chatbot. Wie geht es Dir?
   utter_thanks:
