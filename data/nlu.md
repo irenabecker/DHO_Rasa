@@ -44,6 +44,8 @@
 - Wieder zurück
 - Zum letzten Schritt zurück
 - Start
+- start
+- zurück
 
 ## intent:how_are_you
 - Wie geht es dir?
@@ -282,6 +284,7 @@
 - Synonyme Chatbot?
 - Was macht ein Chatbot?
 - Was kann ein Chatbot?
+- Chatbot
 
 ## intent:vorteile_chatbot
 - Was sind die Vorteile eines Chatbots?
@@ -379,6 +382,8 @@
 ## intent:achse
 - Was ist die Netzwerk-IT-Achse?
 - Netzwerk-IT-Achse
+- achse
+- Achse
 
 ## intent:dho
 - DHO
@@ -398,6 +403,7 @@
 ## intent:makerSpace
 - Was ist der MakerSpace?
 - MakerSpace
+- makerSpace
 
 ## intent:diwo
 - Digitale Woche
@@ -425,6 +431,7 @@
 ## intent:summit
 - Was ist der Digital Summit?
 - Digital Summit
+- summit
 
 ## intent:summit_when
 - Wann findet der Digital Summit statt?

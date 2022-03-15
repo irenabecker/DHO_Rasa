@@ -118,3 +118,7 @@ stories:
   steps:
   - intent: joke
   - action: utter_joke
+- story: chatbot definition
+  steps:
+  - intent: definition_chatbot
+  - action: utter_definition_chatbot
