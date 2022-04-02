@@ -57,6 +57,7 @@ intents:
 - digitalisierunge
 - digitalisierung
 - rasa
+- definition_chabot
 responses:
   utter_greet:
   - buttons:

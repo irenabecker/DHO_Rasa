@@ -442,6 +442,7 @@
 - Wie viele Fachgruppen hat der DHO?
 - Wieviele Fachgruppen hat der DHO?
 - Wieviele Fachgruppen hat der Digital Hub Ostfriesland?
+- Arbeitsgruppe
 
 ## intent:kontakt
 - Kontakt
@@ -487,6 +488,9 @@
 - Rasa
 - Was ist Rasa? 
 - Was ist Rasa?
+
+## intent:definition_chabot
+- /definition_chabot
 
 ## synonym:DHO
 - Digital Hub Ostfriesland

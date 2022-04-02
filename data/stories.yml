@@ -138,3 +138,21 @@ stories:
   steps:
   - intent: rasa
   - action: utter_rasa
+- story: Story from Conversation ID e0fcdce4c86f45bda11c86b565bdf10e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: definition_chabot
+  - action: utter_definition_chatbot
+- story: Story from Conversation ID eb70ca64417a41209982893f0f938b6e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: definition_chabot
+  - action: utter_definition_chatbot
+- story: Story from Conversation ID a81cbdb17a9946499b53caabc726eaad
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: definition_chabot
+  - action: utter_definition_chatbot
