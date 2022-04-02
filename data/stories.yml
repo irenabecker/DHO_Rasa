@@ -122,3 +122,19 @@ stories:
   steps:
   - intent: definition_chatbot
   - action: utter_definition_chatbot
+- story: beirat path
+  steps:
+  - intent: beirat
+  - action: utter_beirat
+- story: beirat_who path
+  steps:
+  - intent: beirat_who
+  - action: utter_beirat_who
+- story: digitalisierung path
+  steps:
+  - intent: digitalisierung
+  - action: utter_digitalisierung
+- story: rasa path
+  steps:
+  - intent: rasa
+  - action: utter_rasa

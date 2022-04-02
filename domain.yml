@@ -52,6 +52,11 @@ intents:
 - summit
 - summit_when
 - mood_bad
+- beirat
+- beirat_who
+- digitalisierunge
+- digitalisierung
+- rasa
 responses:
   utter_greet:
   - buttons:
@@ -179,5 +184,13 @@ responses:
   - text: 'Der Digital Summit ist die Jahresveranstaltung der IT-Achse. Hier werden u.a.  der IT-ACHSE-CARES.AWARD sowie die Auszeichnung von Initiativen mit dem IT-ACHSE-FOUNDING.AWARD verliehen. Der Digital Summit findet dieses Jahr am Mittwoch, den 04. Mai um 16:00 Uhr im ROSEN Technology and Research Center in Lingen statt. Zur Anmeldung geht es hier: https://it-achse.de/digital-summit-2022/'
   utter_summit_when:
   - text: 'Der Digital Summit 2022 findet am Mittwoch, den 04. Mai um 16:00 Uhr im ROSEN Technology and Research Center in Lingen statt. Zur Anmeldung geht es hier: https://it-achse.de/digital-summit-2022/'
+  utter_beirat:
+  - text: Der Beirat ist ein Gremium aus 9 Personen aus Wirtschaft und Wissenschaft. Die Sitzung des eirats findet 1x im Quartal statt. Aufgaben sind u.a. die Entwicklung des DHO voranbringen, Profilschärfung, Unterstützung, Gesprächs- und Diskussionspartner, Beratung, Öffentlichkeitsarbeit.
+  utter_beirat_who:
+  - text: 'Der Beirat besteht aus Vertretern aus der Wissenschaft (Hochschule Emden/Leer): Präsident Prof. Dr. G. Kreutz, Prof. Dr. J. Klußmann, Prof. Dr. T. Becker, Prof. Dr. N. Streekmann und Vertretern aus der Wirtschaft: B. Hillbrands (Orgadata AG), F. Natelberg (Natelberg Gebäudetechnik GmbH), B. Grohmann (eQ-3 AG), F. Wiemer (Dirks Group), Dr. P. Meyer (Meyer-Werft GmbH & Co. KG)'
+  utter_digitalisierung:
+  - text: 'Unter Digitalisierung versteht man unterschiedliche Begrifflichkeiten:  Zum einen die allgemeine Einführung und verstärkte Nutzung von Digitaltechnik, Computern und Internet, zum anderen die konkrete, technische Umwandlung von analogen Werten in digitale Formate.'
+  utter_rasa:
+  - text: Rasa Open Source ist ein Framework für natürliches Sprachverständnis, Dialogmanagement und Integrationen.
 actions:
 - deny

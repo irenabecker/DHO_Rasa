@@ -46,6 +46,7 @@
 - Start
 - start
 - zurück
+- Hallo Chatbot :)
 
 ## intent:how_are_you
 - Wie geht es dir?
@@ -103,6 +104,7 @@
 - Ich fühle mich schlecht
 - Mir geht es gar nicht gut heute
 - Schlecht gelaunt
+- Die Antwort ist nicht richtig.
 
 ## intent:affirm
 - Ja
@@ -149,6 +151,8 @@
 - Bist du denn ein Bot?
 - bist du ein Robotoer
 - spreche ich mit einem Chat Roboter?
+- Wie ist dein Name?
+- Wer bist du?
 
 ## intent:help
 - Ich habe ein Problem
@@ -170,6 +174,8 @@
 - Magst du mir helfen?
 - Ich habe eine Frage
 - Was kannst du?
+- Was kann ich dich fragen?
+- Was kannst du mir sagen?
 
 ## intent:thanks
 - Danke
@@ -197,11 +203,14 @@
 - Prima danke
 - Klasse danke
 - Merci
+- Danke für die Information.
 
 ## intent:out_of_scope
 - Ich möchte essen bestellen
 - Was ist 2+2?
 - Wer ist Bundeskanzler?
+- Kann ich einen Termin buchen?
+- Wie ist das Wetter?
 
 ## intent:goodbye
 - Auf Wiedersehen
@@ -317,6 +326,7 @@
 - Back
 - Rückgängig
 - Auswahlseite anzeigen
+- Wer leistest praktische Arbeit?
 
 ## intent:cash_back
 - Ich möchte mein Geld wieder haben
@@ -358,6 +368,7 @@
 - Postanschrift?
 - Postanschrift
 - Wo befindet sich der DHO?
+- Wp befindet sich der DHO?
 
 ## intent:get_started
 -  
@@ -389,6 +400,12 @@
 - DHO
 - Was ist der DHO?
 - dho
+- Wo befindet sich der DHO? 
+- Digital Hub Ostfriesland 
+- Was macht der Digital Hub Ostfriesland? 
+- Was ist die Organisation?
+- Wer macht beim DHO mit?
+- Digital Hub Ostfriesland
 
 ## intent:ausbildung
 - IT-Verbundausbildung
@@ -404,14 +421,27 @@
 - Was ist der MakerSpace?
 - MakerSpace
 - makerSpace
+- Wie groß ist der MakerSpace?
+- Was ist ein MakerSpace?
 
 ## intent:diwo
 - Digitale Woche
 - Wann findet die Digitale Woche statt?
+- Was ist die Digitale Woche?
+- Was ist die DIWO?
+- Wann findet die nächste DIWO statt?
 
 ## intent:fachgruppen
 - Fachgruppen
 - Was für Fachgruppen gibt es?
+- Was sind Fachgruppen? 
+- Wie viele Fachgruppen gibt es?
+- Was machen die Fachgruppen?
+- Welche Fachgruppen gibt es?
+- Was sind Fachgruppen?
+- Wie viele Fachgruppen hat der DHO?
+- Wieviele Fachgruppen hat der DHO?
+- Wieviele Fachgruppen hat der Digital Hub Ostfriesland?
 
 ## intent:kontakt
 - Kontakt
@@ -427,6 +457,8 @@
 - Welche Veranstaltungen gibt es?
 - Welche Veranstaltungen organisiert der DHO?
 - Welche Veranstaltungen finden demnächst statt?
+- Was ist die nächste Veranstaltung?
+- Gibt es Veranstaltungen?
 
 ## intent:summit
 - Was ist der Digital Summit?
@@ -435,6 +467,26 @@
 
 ## intent:summit_when
 - Wann findet der Digital Summit statt?
+
+## intent:beirat
+- Beirat
+- Was macht der Beirat? 
+- Was sind die Aufgaben des Beirats?
+
+## intent:beirat_who
+- Wer ist im Beirat?
+
+## intent:digitalisierung
+- Was ist Digitalisierung?
+- Was bedeutet Digitalisierung? 
+- Digitalisierung
+- Was ist digitalisierung?
+- Was bedeutet Digitalisierung?
+
+## intent:rasa
+- Rasa
+- Was ist Rasa? 
+- Was ist Rasa?
 
 ## synonym:DHO
 - Digital Hub Ostfriesland
