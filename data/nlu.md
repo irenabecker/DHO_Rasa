@@ -204,6 +204,7 @@
 - Klasse danke
 - Merci
 - Danke für die Information.
+- danke
 
 ## intent:out_of_scope
 - Ich möchte essen bestellen
@@ -225,6 +226,8 @@
 - Bis zum nächsten Mal
 - Goodbye
 - Tschüssi
+- Fertig
+- Ich bin fertig
 
 ## intent:joke
 - erzähle einen witz
@@ -378,6 +381,7 @@
 
 ## intent:fallback
 - Fallback
+- Wo liegt der Landkreis leer
 
 ## intent:oeffnungszeiten
 - Wie sind die Öffnungszeiten?
@@ -389,6 +393,8 @@
 
 ## intent:hubdefinition
 - Was ist ein digital Hub?
+- Hub
+- Was ist ein HUB
 
 ## intent:achse
 - Was ist die Netzwerk-IT-Achse?
