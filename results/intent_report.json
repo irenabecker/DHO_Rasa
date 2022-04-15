@@ -1,155 +1,231 @@
 {
-  "faq": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
+  "fallback": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
   },
-  "affirm": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
-  "back_to_help": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
+  "emailadresse": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
     "confused_with": {
       "nlu_fallback": 1
     }
   },
-  "artikel_beschaedigt": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
+  "kontakt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "firmenadresse": {
+    "precision": 0.8888888888888888,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6956521739130435,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "diwo": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 5
+    }
+  },
+  "award": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 3,
+    "confused_with": {
+      "nlu_fallback": 3
+    }
+  },
+  "how_are_you": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8799999999999999,
+    "support": 12,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "definition_chabot": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "definition_chatbot": 1
+    }
+  },
+  "ausbildung": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 5
+    }
+  },
+  "oeffnungszeiten": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "faq": 1
+    }
+  },
+  "faq": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "beirat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 3
+    }
+  },
+  "thanks": {
+    "precision": 0.896551724137931,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9285714285714286,
+    "support": 27,
     "confused_with": {
       "nlu_fallback": 1
     }
   },
   "help": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "ki_bei_chatbot": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "definition_chatbot": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "how_are_you": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
-  "mood_unhappy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
-  },
-  "reklamation": {
-    "precision": 1.0,
-    "recall": 0.75,
-    "f1-score": 0.8571428571428571,
-    "support": 4,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8947368421052632,
+    "support": 21,
     "confused_with": {
-      "nlu_fallback": 1
+      "nlu_fallback": 4
     }
   },
-  "deny": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
+  "affirm": {
+    "precision": 0.9230769230769231,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7741935483870968,
+    "support": 18,
     "confused_with": {
-      "nlu_fallback": 1
+      "nlu_fallback": 3,
+      "thanks": 2
     }
-  },
-  "thanks": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "vorteile_chatbot": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "emailadresse": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "funkger\u00e4t": {
-    "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 2,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
   },
   "mood_good": {
     "precision": 1.0,
+    "recall": 0.631578947368421,
+    "f1-score": 0.7741935483870968,
+    "support": 19,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "how_are_you": 2
+    }
+  },
+  "vorteile_chatbot": {
+    "precision": 1.0,
+    "recall": 0.1,
+    "f1-score": 0.18181818181818182,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 6,
+      "definition_chatbot": 3
+    }
+  },
+  "ki_bei_chatbot": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "get_started": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "": 1
+    }
+  },
+  "summit_when": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "rasa": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "joke": {
+    "precision": 0.9767441860465116,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
+    "f1-score": 0.988235294117647,
+    "support": 42,
     "confused_with": {}
   },
-  "falscher_artikel": {
-    "precision": 1.0,
+  "definition_chatbot": {
+    "precision": 0.7647058823529411,
     "recall": 1.0,
-    "f1-score": 1.0,
+    "f1-score": 0.8666666666666666,
+    "support": 13,
+    "confused_with": {}
+  },
+  "hubdefinition": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 3,
-    "confused_with": {}
+    "confused_with": {
+      "nlu_fallback": 2,
+      "greet": 1
+    }
   },
-  "bestellnummer": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
+  "beirat_who": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
   },
-  "new_order": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "cash_back": {
+  "summit": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
@@ -159,67 +235,203 @@
     }
   },
   "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "veranstaltungen": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 3,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 5,
+      "firmenadresse": 1
+    }
+  },
+  "dho": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 8
+    }
+  },
+  "cash_back": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "fachgruppen": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 10
+    }
+  },
+  "back_to_help": {
+    "precision": 0.5714285714285714,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5714285714285714,
+    "support": 7,
     "confused_with": {
       "nlu_fallback": 3
     }
   },
-  "radarger\u00e4t": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "joke": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 42,
-    "confused_with": {}
-  },
-  "firmenadresse": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "greet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40,
-    "confused_with": {}
-  },
   "are_you_a_bot": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "nlu_fallback": 9
+    }
+  },
+  "funkger\u00e4t": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "deny": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15,
+    "confused_with": {
+      "nlu_fallback": 13,
+      "thanks": 1,
+      "affirm": 1
+    }
+  },
+  "radarger\u00e4t": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.9444444444444444,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8717948717948718,
+    "support": 21,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "goodbye": {
     "precision": 1.0,
     "recall": 0.8571428571428571,
     "f1-score": 0.923076923076923,
-    "support": 7,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "achse": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "greet": {
+    "precision": 0.9761904761904762,
+    "recall": 0.8541666666666666,
+    "f1-score": 0.9111111111111111,
+    "support": 48,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "back_to_help": 3
+    }
+  },
+  "bad": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
     "confused_with": {
       "nlu_fallback": 1
     }
   },
-  "micro avg": {
+  "unternehmen": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "digitalhubs": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "bestellnummer": {
     "precision": 1.0,
-    "recall": 0.9508196721311475,
-    "f1-score": 0.9747899159663865,
-    "support": 244
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "digitalisierung": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "makerSpace": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 5
+    }
+  },
+  "micro avg": {
+    "precision": 0.9288537549407114,
+    "recall": 0.5816831683168316,
+    "f1-score": 0.715372907153729,
+    "support": 404
   },
   "macro avg": {
-    "precision": 0.9259259259259259,
-    "recall": 0.8656966490299823,
-    "f1-score": 0.8898023786912675,
-    "support": 244
+    "precision": 0.34050402049392464,
+    "recall": 0.28317585933432615,
+    "f1-score": 0.29946452283188674,
+    "support": 404
   },
   "weighted avg": {
-    "precision": 0.9754098360655737,
-    "recall": 0.9508196721311475,
-    "f1-score": 0.9611161152144758,
-    "support": 244
+    "precision": 0.6734541590109339,
+    "recall": 0.5816831683168316,
+    "f1-score": 0.6113834561176372,
+    "support": 404
   }
 }

@@ -1,7 +1,351 @@
 [
   {
+    "text": "Ich m\u00f6chte zur\u00fcck",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "back_to_help",
+      "confidence": 0.7737802267074585
+    }
+  },
+  {
+    "text": "Zur\u00fcck",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "back_to_help",
+      "confidence": 0.8646305203437805
+    }
+  },
+  {
+    "text": "Wieder zur\u00fcck",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Zum letzten Schritt zur\u00fcck",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Start",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "start",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "zur\u00fcck",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "back_to_help",
+      "confidence": 0.8546329140663147
+    }
+  },
+  {
+    "text": "Wie ists mit dir?",
+    "intent": "how_are_you",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Super",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Prima",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Richtig gut",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7478206157684326
+    }
+  },
+  {
+    "text": "Alles gut und bei dir",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "how_are_you",
+      "confidence": 0.9682264924049377
+    }
+  },
+  {
+    "text": "Ich bin sehr zufrieden",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich kann nicht klagen",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Mir geht es sehr gut",
+    "intent": "mood_good",
+    "intent_prediction": {
+      "name": "how_are_you",
+      "confidence": 0.8193390965461731
+    }
+  },
+  {
+    "text": "Mittelm\u00e4\u00dfig",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Mir geht es nicht gut",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Mir geht es gar nicht gut heute",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Die Antwort ist nicht richtig.",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Machen wir so",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "joke",
+      "confidence": 0.9693571925163269
+    }
+  },
+  {
+    "text": "Einverstanden",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "In Ordnung",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.9954822659492493
+    }
+  },
+  {
+    "text": "Okay",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.9993733167648315
+    }
+  },
+  {
+    "text": "jup",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Nein",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Niemals",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ne",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "Ich denke nicht",
     "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich glaube nicht",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "M\u00f6chte ich nicht",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ungern",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Auf keinen Fall",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Auf gar keinen Fall",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Nat\u00fcrlich nicht",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7763022780418396
+    }
+  },
+  {
+    "text": "Bin ich nicht mit einverstanden",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "N\u00f6",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Nein danke",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.9963148236274719
+    }
+  },
+  {
+    "text": "Nie im Leben",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nein",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Bist du ein Bot?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Bist du ein Mensch oder ein Bot?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Rede ich mit einem Bot?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Du bist aber kein Bot, oder?",
+    "intent": "are_you_a_bot",
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
@@ -16,7 +360,79 @@
     }
   },
   {
-    "text": "Ich m\u00f6chte essen bestellen",
+    "text": "bist du ein Robotoer",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "spreche ich mit einem Chat Roboter?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie ist dein Name?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wer bist du?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "K\u00f6nntest du mir behilflich sein?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Hast du einen Rat f\u00fcr mich?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich habe eine Frage",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was kann ich dich fragen?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Merci",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Kann ich einen Termin buchen?",
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -24,7 +440,7 @@
     }
   },
   {
-    "text": "Was ist 2+2?",
+    "text": "Wie ist das Wetter?",
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -32,15 +448,119 @@
     }
   },
   {
-    "text": "Wer ist Bundeskanzler?",
-    "intent": "out_of_scope",
+    "text": "Fertig",
+    "intent": "goodbye",
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
     }
   },
   {
-    "text": "Ich m\u00f6chte zur\u00fcck",
+    "text": "Ich bin fertig",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Kannst du mir dir FAQ zeigen?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was sind die Vorteile eines Chatbots?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Vorteile chatbot",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welchen Nutzen hat ein Chatbot?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was bringt mir ein Chatbot?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "definition_chatbot",
+      "confidence": 0.9448992013931274
+    }
+  },
+  {
+    "text": "Wozu dient ein Chatbot?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "definition_chatbot",
+      "confidence": 0.9063959717750549
+    }
+  },
+  {
+    "text": "Welche Hilfestellung geben Chatbots?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welchen Zweck erf\u00fcllt ein Chatbot?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wann ist der Einsatz eines Chatbots sinnvoll?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "definition_chatbot",
+      "confidence": 0.7601400017738342
+    }
+  },
+  {
+    "text": "Welche Arbeit erleichtert ein Chatbot?",
+    "intent": "vorteile_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie ist der Zusammenhang zwischen Chatbot und KI?",
+    "intent": "ki_bei_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie h\u00e4ngen Chatbot und KI zusammen?",
+    "intent": "ki_bei_chatbot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Back",
     "intent": "back_to_help",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -48,23 +568,23 @@
     }
   },
   {
-    "text": "Das funkger\u00e4t soll zur\u00fcck",
-    "intent": "reklamation",
+    "text": "R\u00fcckg\u00e4ngig",
+    "intent": "back_to_help",
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
     }
   },
   {
-    "text": "Dieser Artikel ist defekt",
-    "intent": "artikel_beschaedigt",
+    "text": "Wer leistest praktische Arbeit?",
+    "intent": "back_to_help",
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
     }
   },
   {
-    "text": "Ich m\u00f6chte mein Geld zur\u00fcck",
+    "text": "Ich m\u00f6chte mein Geld wieder haben",
     "intent": "cash_back",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -72,7 +592,7 @@
     }
   },
   {
-    "text": "Geld zur\u00fcck",
+    "text": "Bitte um R\u00fcckzahlung",
     "intent": "cash_back",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -80,8 +600,16 @@
     }
   },
   {
-    "text": "das geld zur\u00fcck bitte",
-    "intent": "cash_back",
+    "text": "xyz@abc.de",
+    "intent": "emailadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "funkger\u00e4t",
+    "intent": "funkger\u00e4t",
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
@@ -93,6 +621,734 @@
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
+    }
+  },
+  {
+    "text": "Es handelt sich um ein Funkger\u00e4t",
+    "intent": "funkger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Gegenstand: Funkger\u00e4t",
+    "intent": "funkger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich habe hier ein Funkger\u00e4t",
+    "intent": "funkger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Der Gegenstand ist ein Funkger\u00e4t",
+    "intent": "funkger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "radarger\u00e4t",
+    "intent": "radarger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "es ist das Radarger\u00e4t",
+    "intent": "radarger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Es handelt sich um ein Radarger\u00e4t",
+    "intent": "radarger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Gegenstand: Radarger\u00e4t",
+    "intent": "radarger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich habe hier ein Radarger\u00e4t",
+    "intent": "radarger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Der Gegenstand ist ein Radarger\u00e4t",
+    "intent": "radarger\u00e4t",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Geben Sie mir bitte Ihre Anschrift",
+    "intent": "firmenadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie lautet die Postanschrift?",
+    "intent": "firmenadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Teilen Sie mir bitte Ihre Anschrift mit",
+    "intent": "firmenadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich ben\u00f6tige Ihre Adresse",
+    "intent": "firmenadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wo befindet sich der DHO?",
+    "intent": "firmenadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wp befindet sich der DHO?",
+    "intent": "firmenadresse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "",
+    "intent": "get_started",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Mist",
+    "intent": "bad",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Fallback",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wo liegt der Landkreis leer",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie sind die \u00d6ffnungszeiten?",
+    "intent": "oeffnungszeiten",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8240780830383301
+    }
+  },
+  {
+    "text": "Wann hat der DHO ge\u00f6ffnet?",
+    "intent": "oeffnungszeiten",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wann ist der DHO ge\u00f6ffnet?",
+    "intent": "oeffnungszeiten",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welche digital hubs gibt es?",
+    "intent": "digitalhubs",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist ein digital Hub?",
+    "intent": "hubdefinition",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Hub",
+    "intent": "hubdefinition",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8409585356712341
+    }
+  },
+  {
+    "text": "Was ist ein HUB",
+    "intent": "hubdefinition",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist die Netzwerk-IT-Achse?",
+    "intent": "achse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Netzwerk-IT-Achse",
+    "intent": "achse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "achse",
+    "intent": "achse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Achse",
+    "intent": "achse",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "DHO",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist der DHO?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "dho",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wo befindet sich der DHO?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Digital Hub Ostfriesland",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was macht der Digital Hub Ostfriesland?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist die Organisation?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wer macht beim DHO mit?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "IT-Verbundausbildung",
+    "intent": "ausbildung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist die IT-Verbundausbildung?",
+    "intent": "ausbildung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ich suche einen Ausbildungsplatz?",
+    "intent": "ausbildung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ausbildung",
+    "intent": "ausbildung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ausbildung",
+    "intent": "ausbildung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie k\u00f6nnen Unternehmen Hilfe beantragen?",
+    "intent": "unternehmen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist der MakerSpace?",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "MakerSpace",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "makerSpace",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie gro\u00df ist der MakerSpace?",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist ein MakerSpace?",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Digitale Woche",
+    "intent": "diwo",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wann findet die Digitale Woche statt?",
+    "intent": "diwo",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist die Digitale Woche?",
+    "intent": "diwo",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist die DIWO?",
+    "intent": "diwo",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wann findet die n\u00e4chste DIWO statt?",
+    "intent": "diwo",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Fachgruppen",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was f\u00fcr Fachgruppen gibt es?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was sind Fachgruppen?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie viele Fachgruppen gibt es?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was machen die Fachgruppen?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welche Fachgruppen gibt es?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie viele Fachgruppen hat der DHO?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wieviele Fachgruppen hat der DHO?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wieviele Fachgruppen hat der Digital Hub Ostfriesland?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Arbeitsgruppe",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Kontakt",
+    "intent": "kontakt",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie kann ich Kontakt zum DHO aufnehmen?",
+    "intent": "kontakt",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Award",
+    "intent": "award",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist der IT-Cares.Award?",
+    "intent": "award",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wer bekommt den award?",
+    "intent": "award",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Veranstaltungen",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welche Veranstaltungen gibt es?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "firmenadresse",
+      "confidence": 0.7327337265014648
+    }
+  },
+  {
+    "text": "Welche Veranstaltungen organisiert der DHO?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welche Veranstaltungen finden demn\u00e4chst statt?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist die n\u00e4chste Veranstaltung?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Gibt es Veranstaltungen?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist der Digital Summit?",
+    "intent": "summit",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Digital Summit",
+    "intent": "summit",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "summit",
+    "intent": "summit",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wann findet der Digital Summit statt?",
+    "intent": "summit_when",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Beirat",
+    "intent": "beirat",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was macht der Beirat?",
+    "intent": "beirat",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was sind die Aufgaben des Beirats?",
+    "intent": "beirat",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wer ist im Beirat?",
+    "intent": "beirat_who",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist Digitalisierung?",
+    "intent": "digitalisierung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was bedeutet Digitalisierung?",
+    "intent": "digitalisierung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Digitalisierung",
+    "intent": "digitalisierung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist digitalisierung?",
+    "intent": "digitalisierung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Rasa",
+    "intent": "rasa",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Was ist Rasa?",
+    "intent": "rasa",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/definition_chabot",
+    "intent": "definition_chabot",
+    "intent_prediction": {
+      "name": "definition_chatbot",
+      "confidence": 0.9680607318878174
     }
   }
 ]
