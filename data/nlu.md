@@ -61,6 +61,8 @@
 - Wie ists mit dir?
 - Alles in Ordnung bei dir?
 - Alles ok bei dir?
+- wie geht es dir?
+- Hi Bot, wie geht's?
 
 ## intent:mood_good
 - Gut
@@ -153,6 +155,7 @@
 - spreche ich mit einem Chat Roboter?
 - Wie ist dein Name?
 - Wer bist du?
+- Wie alt bist du?
 
 ## intent:help
 - Ich habe ein Problem
@@ -176,6 +179,7 @@
 - Was kannst du?
 - Was kann ich dich fragen?
 - Was kannst du mir sagen?
+- was kannst du mir erzählen?
 
 ## intent:thanks
 - Danke
@@ -272,6 +276,8 @@
 - sag doch mal was lustiges
 - Witz
 - Kannst du witze erzählen bot
+- Erzähle mir einen Witz
+- Wie viele Witze kennst du?
 
 ## intent:faq
 - Was sind eure FAQ's
@@ -297,6 +303,8 @@
 - Was macht ein Chatbot?
 - Was kann ein Chatbot?
 - Chatbot
+- was ist ein chatbot?
+- was ist ein chatbot
 
 ## intent:vorteile_chatbot
 - Was sind die Vorteile eines Chatbots?
@@ -374,7 +382,7 @@
 - Wp befindet sich der DHO?
 
 ## intent:get_started
--  
+- 
 
 ## intent:bad
 - Mist
@@ -382,6 +390,11 @@
 ## intent:fallback
 - Fallback
 - Wo liegt der Landkreis leer
+- Was ist eine Drohne?
+- was ist ein hackathon?
+- Wie wird das Wetter am Ostern?
+- welche kosten sind damit verbunden?
+- gebühren?
 
 ## intent:oeffnungszeiten
 - Wie sind die Öffnungszeiten?
@@ -406,12 +419,20 @@
 - DHO
 - Was ist der DHO?
 - dho
-- Wo befindet sich der DHO? 
-- Digital Hub Ostfriesland 
-- Was macht der Digital Hub Ostfriesland? 
+- Wo befindet sich der DHO?
+- Digital Hub Ostfriesland
+- Was macht der Digital Hub Ostfriesland?
 - Was ist die Organisation?
 - Wer macht beim DHO mit?
-- Digital Hub Ostfriesland
+- Was ist der DHO
+- Welche Projekte gibt es?
+- Wer ist Mitglied im DHO?
+- Informationen?
+- was sit dho
+- wie finanziert sich der dho?
+- welche ziele verfolgt das dho?
+- ziele
+- wofür steht dho?
 
 ## intent:ausbildung
 - IT-Verbundausbildung
@@ -419,9 +440,12 @@
 - Ich suche einen Ausbildungsplatz?
 - Ausbildung
 - ausbildung
+- welche ausbildung gibt es
 
 ## intent:unternehmen
 - Wie können Unternehmen Hilfe beantragen?
+- Welche Fördermittel gibt es?
+- förderung
 
 ## intent:makerSpace
 - Was ist der MakerSpace?
@@ -429,6 +453,9 @@
 - makerSpace
 - Wie groß ist der MakerSpace?
 - Was ist ein MakerSpace?
+- Wo ist der Makerspace?
+- wo ist der makerspace?
+- wer kann den makerspace nutzen?
 
 ## intent:diwo
 - Digitale Woche
@@ -436,28 +463,32 @@
 - Was ist die Digitale Woche?
 - Was ist die DIWO?
 - Wann findet die nächste DIWO statt?
+- Wo findet die Digitale Woche statt?
 
 ## intent:fachgruppen
 - Fachgruppen
 - Was für Fachgruppen gibt es?
-- Was sind Fachgruppen? 
+- Was sind Fachgruppen?
 - Wie viele Fachgruppen gibt es?
 - Was machen die Fachgruppen?
 - Welche Fachgruppen gibt es?
-- Was sind Fachgruppen?
 - Wie viele Fachgruppen hat der DHO?
 - Wieviele Fachgruppen hat der DHO?
 - Wieviele Fachgruppen hat der Digital Hub Ostfriesland?
 - Arbeitsgruppe
+- welche Fachgruppen gibt es bei DHO?
 
 ## intent:kontakt
 - Kontakt
 - Wie kann ich Kontakt zum DHO aufnehmen?
+- adresse vom makerspace
+- an wen kann ich mich wenden
 
 ## intent:award
 - Award
 - Was ist der IT-Cares.Award?
 - Wer bekommt den award?
+- was ist der it-cares.award
 
 ## intent:veranstaltungen
 - Veranstaltungen
@@ -466,6 +497,8 @@
 - Welche Veranstaltungen finden demnächst statt?
 - Was ist die nächste Veranstaltung?
 - Gibt es Veranstaltungen?
+- welche veranstaltungen gibt es?
+- sind die vernstaltungen kostenlos
 
 ## intent:summit
 - Was ist der Digital Summit?
@@ -477,7 +510,7 @@
 
 ## intent:beirat
 - Beirat
-- Was macht der Beirat? 
+- Was macht der Beirat?
 - Was sind die Aufgaben des Beirats?
 
 ## intent:beirat_who
@@ -485,14 +518,12 @@
 
 ## intent:digitalisierung
 - Was ist Digitalisierung?
-- Was bedeutet Digitalisierung? 
+- Was bedeutet Digitalisierung?
 - Digitalisierung
 - Was ist digitalisierung?
-- Was bedeutet Digitalisierung?
 
 ## intent:rasa
 - Rasa
-- Was ist Rasa? 
 - Was ist Rasa?
 
 ## intent:definition_chabot
