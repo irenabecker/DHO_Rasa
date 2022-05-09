@@ -1,0 +1,24 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 9bea28ccacd048d480d67544ba746def
+  steps:
+  - intent: greet
+    user: |-
+      moin
+  - action: utter_greet
+  - intent: achse
+    user: |-
+      /achse
+  - action: utter_achse
+  - intent: summit
+    user: |-
+      summit
+  - action: utter_summit
+  - intent: dho
+    user: |-
+      was ist der dho?
+  - action: utter_dho
+  - intent: fachgruppen
+    user: |-
+      Was für Fachgruppen gibt es?
+  - action: utter_fachgruppen
