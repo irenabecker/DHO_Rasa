@@ -392,6 +392,14 @@
     }
   },
   {
+    "text": "Wie alt bist du?",
+    "intent": "are_you_a_bot",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "K\u00f6nntest du mir behilflich sein?",
     "intent": "help",
     "intent_prediction": {
@@ -421,6 +429,14 @@
     "intent_prediction": {
       "name": "nlu_fallback",
       "confidence": 1.0
+    }
+  },
+  {
+    "text": "was kannst du mir erz\u00e4hlen?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "joke",
+      "confidence": 0.9978175759315491
     }
   },
   {
@@ -784,6 +800,46 @@
     }
   },
   {
+    "text": "Was ist eine Drohne?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "was ist ein hackathon?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wie wird das Wetter am Ostern?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "welche kosten sind damit verbunden?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "geb\u00fchren?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "Wie sind die \u00d6ffnungszeiten?",
     "intent": "oeffnungszeiten",
     "intent_prediction": {
@@ -936,6 +992,78 @@
     }
   },
   {
+    "text": "Was ist der DHO",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welche Projekte gibt es?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wer ist Mitglied im DHO?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Informationen?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "was sit dho",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "wie finanziert sich der dho?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "welche ziele verfolgt das dho?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ziele",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "wof\u00fcr steht dho?",
+    "intent": "dho",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "IT-Verbundausbildung",
     "intent": "ausbildung",
     "intent_prediction": {
@@ -976,7 +1104,31 @@
     }
   },
   {
+    "text": "welche ausbildung gibt es",
+    "intent": "ausbildung",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "Wie k\u00f6nnen Unternehmen Hilfe beantragen?",
+    "intent": "unternehmen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Welche F\u00f6rdermittel gibt es?",
+    "intent": "unternehmen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "f\u00f6rderung",
     "intent": "unternehmen",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -1024,6 +1176,30 @@
     }
   },
   {
+    "text": "Wo ist der Makerspace?",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "wo ist der makerspace?",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "wer kann den makerspace nutzen?",
+    "intent": "makerSpace",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "Digitale Woche",
     "intent": "diwo",
     "intent_prediction": {
@@ -1057,6 +1233,14 @@
   },
   {
     "text": "Wann findet die n\u00e4chste DIWO statt?",
+    "intent": "diwo",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wo findet die Digitale Woche statt?",
     "intent": "diwo",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -1144,6 +1328,14 @@
     }
   },
   {
+    "text": "welche Fachgruppen gibt es bei DHO?",
+    "intent": "fachgruppen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
     "text": "Kontakt",
     "intent": "kontakt",
     "intent_prediction": {
@@ -1153,6 +1345,22 @@
   },
   {
     "text": "Wie kann ich Kontakt zum DHO aufnehmen?",
+    "intent": "kontakt",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "adresse vom makerspace",
+    "intent": "kontakt",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "an wen kann ich mich wenden",
     "intent": "kontakt",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -1177,6 +1385,14 @@
   },
   {
     "text": "Wer bekommt den award?",
+    "intent": "award",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "was ist der it-cares.award",
     "intent": "award",
     "intent_prediction": {
       "name": "nlu_fallback",
@@ -1225,6 +1441,22 @@
   },
   {
     "text": "Gibt es Veranstaltungen?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "welche veranstaltungen gibt es?",
+    "intent": "veranstaltungen",
+    "intent_prediction": {
+      "name": "firmenadresse",
+      "confidence": 0.7335892915725708
+    }
+  },
+  {
+    "text": "sind die vernstaltungen kostenlos",
     "intent": "veranstaltungen",
     "intent_prediction": {
       "name": "nlu_fallback",

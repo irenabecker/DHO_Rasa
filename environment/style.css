@@ -1,0 +1,112 @@
+ /*
+ *{
+	margin:0;
+	padding: 0;
+ }
+ */
+ 
+ 
+
+ #monkey{
+	 text-align: center;
+ }
+ 
+ 
+.titelgrafik {display:block;overflow:hidden;position:relative;margin:0 0 2% 0;padding:1%;background:#fff;}
+.titelgrafik img {display:block;width:100%;height:auto;}
+.randspalte {float:right;width:28%;margin:0 0 0 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#dcd5c5;padding:0;}
+.randspalte_box {margin:0 0 5% 0;padding:6%;background:#fff;}
+.inhalt {margin:0 0 2% 0;padding:2%; width:70%; float: left; background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.mt_middle{display:block;overflow:hidden;position:relative;margin:0 0 2% 0;padding:1%;align:center;}
+
+body {text-align:left;margin:0 auto;padding:0;background:#dcd5c5 url(media/background.jpg) top left repeat-x;font-family:'Muli', arial, verdana, sans-serif;font-size:1em;color:#1f1f1f; width: 1200px;}
+h2 {font-size: 30px;margin: 0;color:#597d9f;}	 
+h3 {margin:0 0 15px 0;padding:0;line-height:1.2em;font-family:'Shanti', sans-serif;font-weight:normal;font-size:1.35em;color:#597d9f;}
+h4 {clear:both;margin:25px 0 10px 0;padding:0;line-height:1.15em;text-transform:none;color:#597d9f;font-family:'Shanti', arial, verdana, sans-serif;font-weight:normal;font-size:1.15em;}
+h5 {margin:13px 0 5px 0;text-transform:uppercase;font-family:'Shanti', arial, verdana, sans-serif;font-weight:normal;font-size:1.15em;color:#1f1f1f;}
+
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #597d9f;
+  overflow: hidden;
+  margin: 0 0 2% 0;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #597d9f;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: #597d9f;
+}
+
+.picfooter{
+	  padding: 0 1% 0;
+	  font-size: 12px;
+}
+
+
+.footer {
+float:right;
+margin:0 0 2% 0;
+  padding: 1% 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  color: #597d9f;
+  text-align: right;
+}
+.w3-left{float:left!important}
+.w3-right{float:right!important}
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+
+.button1 {
+  background-color: fade(#597d9f, 20%);
+
+  border: none;
+  color: #597d9f;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttoncontent{
+  width: 80%;
+  padding: 0 10% 0 3%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

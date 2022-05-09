@@ -1,388 +1,14 @@
 {
-  "fallback": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "emailadresse": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "kontakt": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "firmenadresse": {
-    "precision": 0.8888888888888888,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.6956521739130435,
-    "support": 14,
-    "confused_with": {
-      "nlu_fallback": 6
-    }
-  },
   "diwo": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 5,
+    "support": 6,
     "confused_with": {
-      "nlu_fallback": 5
-    }
-  },
-  "award": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "nlu_fallback": 3
-    }
-  },
-  "how_are_you": {
-    "precision": 0.8461538461538461,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.8799999999999999,
-    "support": 12,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "definition_chabot": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "definition_chatbot": 1
-    }
-  },
-  "ausbildung": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 5,
-    "confused_with": {
-      "nlu_fallback": 5
-    }
-  },
-  "oeffnungszeiten": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "nlu_fallback": 2,
-      "faq": 1
-    }
-  },
-  "faq": {
-    "precision": 0.875,
-    "recall": 0.875,
-    "f1-score": 0.875,
-    "support": 8,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "beirat": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "nlu_fallback": 3
-    }
-  },
-  "thanks": {
-    "precision": 0.896551724137931,
-    "recall": 0.9629629629629629,
-    "f1-score": 0.9285714285714286,
-    "support": 27,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "help": {
-    "precision": 1.0,
-    "recall": 0.8095238095238095,
-    "f1-score": 0.8947368421052632,
-    "support": 21,
-    "confused_with": {
-      "nlu_fallback": 4
-    }
-  },
-  "affirm": {
-    "precision": 0.9230769230769231,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.7741935483870968,
-    "support": 18,
-    "confused_with": {
-      "nlu_fallback": 3,
-      "thanks": 2
-    }
-  },
-  "mood_good": {
-    "precision": 1.0,
-    "recall": 0.631578947368421,
-    "f1-score": 0.7741935483870968,
-    "support": 19,
-    "confused_with": {
-      "nlu_fallback": 4,
-      "how_are_you": 2
-    }
-  },
-  "vorteile_chatbot": {
-    "precision": 1.0,
-    "recall": 0.1,
-    "f1-score": 0.18181818181818182,
-    "support": 10,
-    "confused_with": {
-      "nlu_fallback": 6,
-      "definition_chatbot": 3
-    }
-  },
-  "ki_bei_chatbot": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 10,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "get_started": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "": 1
+      "nlu_fallback": 6
     }
   },
   "summit_when": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "rasa": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "joke": {
-    "precision": 0.9767441860465116,
-    "recall": 1.0,
-    "f1-score": 0.988235294117647,
-    "support": 42,
-    "confused_with": {}
-  },
-  "definition_chatbot": {
-    "precision": 0.7647058823529411,
-    "recall": 1.0,
-    "f1-score": 0.8666666666666666,
-    "support": 13,
-    "confused_with": {}
-  },
-  "hubdefinition": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "nlu_fallback": 2,
-      "greet": 1
-    }
-  },
-  "beirat_who": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "summit": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "nlu_fallback": 3
-    }
-  },
-  "out_of_scope": {
-    "precision": 1.0,
-    "recall": 0.6,
-    "f1-score": 0.7499999999999999,
-    "support": 5,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "veranstaltungen": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 6,
-    "confused_with": {
-      "nlu_fallback": 5,
-      "firmenadresse": 1
-    }
-  },
-  "dho": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 8,
-    "confused_with": {
-      "nlu_fallback": 8
-    }
-  },
-  "cash_back": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "fachgruppen": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 10,
-    "confused_with": {
-      "nlu_fallback": 10
-    }
-  },
-  "back_to_help": {
-    "precision": 0.5714285714285714,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.5714285714285714,
-    "support": 7,
-    "confused_with": {
-      "nlu_fallback": 3
-    }
-  },
-  "are_you_a_bot": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 9,
-    "confused_with": {
-      "nlu_fallback": 9
-    }
-  },
-  "funkger\u00e4t": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 6,
-    "confused_with": {
-      "nlu_fallback": 6
-    }
-  },
-  "deny": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 15,
-    "confused_with": {
-      "nlu_fallback": 13,
-      "thanks": 1,
-      "affirm": 1
-    }
-  },
-  "radarger\u00e4t": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 6,
-    "confused_with": {
-      "nlu_fallback": 6
-    }
-  },
-  "mood_unhappy": {
-    "precision": 0.9444444444444444,
-    "recall": 0.8095238095238095,
-    "f1-score": 0.8717948717948718,
-    "support": 21,
-    "confused_with": {
-      "nlu_fallback": 4
-    }
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 14,
-    "confused_with": {
-      "nlu_fallback": 2
-    }
-  },
-  "achse": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
-    "confused_with": {
-      "nlu_fallback": 4
-    }
-  },
-  "greet": {
-    "precision": 0.9761904761904762,
-    "recall": 0.8541666666666666,
-    "f1-score": 0.9111111111111111,
-    "support": 48,
-    "confused_with": {
-      "nlu_fallback": 4,
-      "back_to_help": 3
-    }
-  },
-  "bad": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "unternehmen": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {
-      "nlu_fallback": 1
-    }
-  },
-  "digitalhubs": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
@@ -398,7 +24,219 @@
     "support": 1,
     "confused_with": {}
   },
-  "digitalisierung": {
+  "rasa": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "kontakt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "cash_back": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "ausbildung": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "back_to_help": {
+    "precision": 0.5714285714285714,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5714285714285714,
+    "support": 7,
+    "confused_with": {
+      "nlu_fallback": 3
+    }
+  },
+  "are_you_a_bot": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 10
+    }
+  },
+  "veranstaltungen": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 6,
+      "firmenadresse": 2
+    }
+  },
+  "unternehmen": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 3
+    }
+  },
+  "beirat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 3
+    }
+  },
+  "hubdefinition": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "greet": 1
+    }
+  },
+  "oeffnungszeiten": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "faq": 1
+    }
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "fachgruppen": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "nlu_fallback": 11
+    }
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "firmenadresse": {
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6666666666666666,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "how_are_you": {
+    "precision": 0.8666666666666667,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.896551724137931,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "greet": {
+    "precision": 0.9761904761904762,
+    "recall": 0.8541666666666666,
+    "f1-score": 0.9111111111111111,
+    "support": 48,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "back_to_help": 3
+    }
+  },
+  "joke": {
+    "precision": 0.9565217391304348,
+    "recall": 1.0,
+    "f1-score": 0.9777777777777777,
+    "support": 44,
+    "confused_with": {}
+  },
+  "mood_good": {
+    "precision": 1.0,
+    "recall": 0.631578947368421,
+    "f1-score": 0.7741935483870968,
+    "support": 19,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "how_are_you": 2
+    }
+  },
+  "digitalhubs": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "deny": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15,
+    "confused_with": {
+      "nlu_fallback": 13,
+      "thanks": 1,
+      "affirm": 1
+    }
+  },
+  "beirat_who": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "get_started": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "": 1
+    }
+  },
+  "achse": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
@@ -411,27 +249,190 @@
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 5,
+    "support": 8,
     "confused_with": {
-      "nlu_fallback": 5
+      "nlu_fallback": 8
+    }
+  },
+  "digitalisierung": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "definition_chatbot": {
+    "precision": 0.7894736842105263,
+    "recall": 1.0,
+    "f1-score": 0.8823529411764706,
+    "support": 15,
+    "confused_with": {}
+  },
+  "ki_bei_chatbot": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "summit": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 3
+    }
+  },
+  "fallback": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "nlu_fallback": 7
+    }
+  },
+  "definition_chabot": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "definition_chatbot": 1
+    }
+  },
+  "radarger\u00e4t": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "bad": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "help": {
+    "precision": 1.0,
+    "recall": 0.7727272727272727,
+    "f1-score": 0.8717948717948718,
+    "support": 22,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "joke": 1
+    }
+  },
+  "emailadresse": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.9444444444444444,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8717948717948718,
+    "support": 21,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "thanks": {
+    "precision": 0.896551724137931,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9285714285714286,
+    "support": 27,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "award": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "affirm": {
+    "precision": 0.9230769230769231,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7741935483870968,
+    "support": 18,
+    "confused_with": {
+      "nlu_fallback": 3,
+      "thanks": 2
+    }
+  },
+  "dho": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 17,
+    "confused_with": {
+      "nlu_fallback": 17
+    }
+  },
+  "vorteile_chatbot": {
+    "precision": 1.0,
+    "recall": 0.1,
+    "f1-score": 0.18181818181818182,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 6,
+      "definition_chatbot": 3
+    }
+  },
+  "faq": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "funkger\u00e4t": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
     }
   },
   "micro avg": {
-    "precision": 0.9288537549407114,
-    "recall": 0.5816831683168316,
-    "f1-score": 0.715372907153729,
-    "support": 404
+    "precision": 0.9233716475095786,
+    "recall": 0.5489749430523918,
+    "f1-score": 0.6885714285714286,
+    "support": 439
   },
   "macro avg": {
-    "precision": 0.34050402049392464,
-    "recall": 0.28317585933432615,
-    "f1-score": 0.29946452283188674,
-    "support": 404
+    "precision": 0.33911639628882556,
+    "recall": 0.2826347337932006,
+    "f1-score": 0.29880915336995406,
+    "support": 439
   },
   "weighted avg": {
-    "precision": 0.6734541590109339,
-    "recall": 0.5816831683168316,
-    "f1-score": 0.6113834561176372,
-    "support": 404
+    "precision": 0.6304673177125634,
+    "recall": 0.5489749430523918,
+    "f1-score": 0.575079326021743,
+    "support": 439
   }
 }
