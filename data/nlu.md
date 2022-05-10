@@ -433,6 +433,7 @@
 - welche ziele verfolgt das dho?
 - ziele
 - wofür steht dho?
+- was ist der dho?
 
 ## intent:ausbildung
 - IT-Verbundausbildung

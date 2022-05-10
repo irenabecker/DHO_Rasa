@@ -1,24 +1,16 @@
 version: "2.0"
 stories:
-- story: Story from Conversation ID 9bea28ccacd048d480d67544ba746def
+- story: Story from Conversation ID ae4e0d2bdd894f7a9a9e652242af2d27
   steps:
   - intent: greet
     user: |-
       moin
   - action: utter_greet
-  - intent: achse
+  - intent: digitalhubs
     user: |-
-      /achse
-  - action: utter_achse
-  - intent: summit
+      /digitalhubs
+  - action: utter_digitalhubs
+  - intent: thanks
     user: |-
-      summit
-  - action: utter_summit
-  - intent: dho
-    user: |-
-      was ist der dho?
-  - action: utter_dho
-  - intent: fachgruppen
-    user: |-
-      Was für Fachgruppen gibt es?
-  - action: utter_fachgruppen
+      danke
+  - action: utter_thanks

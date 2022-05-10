@@ -156,3 +156,11 @@ stories:
   - action: utter_greet
   - intent: definition_chabot
   - action: utter_definition_chatbot
+- story: Story from Conversation ID ae4e0d2bdd894f7a9a9e652242af2d27
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: digitalhubs
+  - action: utter_digitalhubs
+  - intent: thanks
+  - action: utter_thanks
